@@ -1,0 +1,22 @@
+:root {
+    --red: #F05B5B;
+    --white: #FFFFFF;
+    --blue100: #09131B;
+    --blue90: #162E41;
+    --blue50: #E7F3FE;
+    --tan: #E7C2A3;
+    --font1: 'Bitter', serif;
+    --font2: 'Assistant', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap');
+html {
+    overflow: scroll;
+}
+
+ ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
