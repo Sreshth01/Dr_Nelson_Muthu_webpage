@@ -188,6 +188,7 @@ body {
     position: absolute;
     left: 6.9444vw;
     top: 10px;
+    width: 2.67777vw;
 }
 
 .nelson_header {
@@ -236,7 +237,7 @@ body {
     align-items: flex-start;
     padding: 0px;
     position: absolute;
-    width: 88.68vw;
+    width: 92.68vw;
     height: 512px;
     left: 6.9444vw;
     top: 27.694vh;
@@ -794,4 +795,63 @@ top: 106px;
         left: 207px;
         top: 95px;
     }
+}
+
+.acad-card {
+    position: static;
+    /* Shadow */
+    filter: drop-shadow(0px 2px 10px rgba(27, 39, 50, 0.15)) drop-shadow(0px 5px 10px rgba(27, 39, 50, 0.1)) drop-shadow(2px 4px 10px rgba(27, 39, 50, 0.15));
+}
+
+.acad-card-circle {
+    position: absolute;
+    width: 96.79px;
+    height: 96.78px;
+    left: 235.67px;
+    /* width: 100vw; */
+}
+
+.acad-card-circle-ice {
+    width: 96.79px;
+    height: auto;
+    /* width: 100vw; */
+}
+
+.acad-card-circle-logo {
+    position: absolute;
+    left: 16.33px;
+    top: 16.58px;
+    width: 64px;
+    height: auto;
+}
+
+.acad-card-box {
+    position: absolute;
+    width: 304px;
+    height: 148px;
+    left: 0px;
+    top: 31px;
+    background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
+    border-radius: 5px;
+}
+
+.acad-card-year {
+    position: absolute;
+    left: 14px;
+    top: 17px;
+    color: var(--tan);
+}
+
+.acad-card-degree {
+    position: absolute;
+    left: 14px;
+    top: 62px;
+    color: var(--white);
+}
+
+.acad-card-institute {
+    position: absolute;
+    left: 14px;
+    top: 87px;
+    color: var(--white);
 }
