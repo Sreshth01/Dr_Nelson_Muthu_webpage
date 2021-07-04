@@ -10,6 +10,7 @@
     --blue-light: #435C70;
     --pub-red: #E55C31;
     --tan: #FCF0E4;
+    --skin: #F5D9BC;
     --font1: 'Bitter', serif;
     --font2: 'Assistant', sans-serif;
 }
@@ -827,8 +828,9 @@ top: 106px;
 
 .acad-card-box {
     position: absolute;
-    width: 304px;
-    height: 148px;
+    max-width: 304px;
+    /* height: 148px; */
+    padding-bottom: 17px;
     left: 0px;
     top: 31px;
     background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
@@ -836,22 +838,106 @@ top: 106px;
 }
 
 .acad-card-year {
-    position: absolute;
-    left: 14px;
-    top: 17px;
+    /* position: relative; */
+    padding-left: 14px;
+    padding-top: 17px;
     color: var(--tan);
 }
 
 .acad-card-degree {
-    position: absolute;
-    left: 14px;
-    top: 62px;
+    padding-left: 14px;
+    padding-right: 10px;
     color: var(--white);
 }
 
 .acad-card-institute {
-    position: absolute;
-    left: 14px;
-    top: 87px;
+    padding-left: 14px;
+    padding-right: 10px;
     color: var(--white);
+}
+
+.exp-card {
+    position: static;
+    filter: drop-shadow(0px 2px 10px rgba(27, 39, 50, 0.05)) drop-shadow(0px 5px 10px rgba(27, 39, 50, 0.05)) drop-shadow(2px 4px 10px rgba(27, 39, 50, 0.05));
+}
+
+.exp-card-box {
+    position: absolute;
+    max-width: 304px;
+    left: 0px;
+    top: 31px;
+    background: var(--tan);
+    border-radius: 5px;
+    padding-bottom: 17px;
+}
+
+.exp-card-year {
+    padding-left: 14px;
+    padding-top: 17px;
+    color: var(--blue100);
+}
+
+.exp-card-position {
+    padding-left: 14px;
+    padding-right: 10px;
+    color: var(--red);
+}
+
+.exp-card-institute {
+    padding-left: 14px;
+    padding-right: 10px;
+    color: var(--blue100);
+}
+
+.exp_d-card {
+    position: static;
+    /* Shadow */
+    filter: drop-shadow(0px 2px 10px rgba(27, 39, 50, 0.15)) drop-shadow(0px 5px 10px rgba(27, 39, 50, 0.1)) drop-shadow(2px 4px 10px rgba(27, 39, 50, 0.15));
+}
+
+.exp_d-card-circle {
+    position: absolute;
+    width: 96.79px;
+    height: 96.78px;
+    left: 504px;
+    /* width: 100vw; */
+}
+
+.exp_d-card-box {
+    position: absolute;
+    max-width: 572px;
+    /* height: 148px; */
+    padding-bottom: 17px;
+    left: 0px;
+    top: 31px;
+    background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
+    border-radius: 5px;
+}
+
+.exp_d-card-year {
+    /* position: relative; */
+    padding-left: 25px;
+    padding-top: 23px;
+    color: var(--skin);
+}
+
+.exp_d-card-position {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    color: var(--white);
+}
+
+.exp_d-card-desc {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    color: var(--white);
+}
+
+.exp_d-card-institute {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    color: var(--skin);
 }
