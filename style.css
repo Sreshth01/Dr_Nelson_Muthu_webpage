@@ -544,8 +544,8 @@ body {
     position: absolute;
     width: 556px;
     height: 83px;
-    top: 95px;
-
+    left :15vw;
+    margin-top: -42px;
     /* Shadow */
     background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
     border-radius: 5px;
@@ -558,7 +558,8 @@ body {
     position: absolute;
     width: 410px;
     height: 83px;
-    top: 95px;
+    left :15vw;
+    margin-top: -42px;
 
     /* Shadow */
     background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
@@ -572,7 +573,8 @@ body {
     position: absolute;
     width: 410px;
     height: 83px;
-    top: 95px;
+    left :15vw;
+    margin-top: -42px;
 
     /* Shadow Tan */
 
@@ -1242,18 +1244,18 @@ top: 101px;
 
 @media screen and (max-width: 1146px) {
     #pub_nav {
-        inset: 95px 0px 36.25em;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #past_nav {
-        inset: 95px 0px 36.25em;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #curr_nav {
-        inset: 95px 0px 36.25em;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #menu_book {
@@ -1267,20 +1269,7 @@ top: 101px;
 }
 
 @media screen and (min-width: 1147px) {
-    #pub_nav {
-        left: 207px;
-        top: 95px;
-    }
 
-    #past_nav {
-        left: 207px;
-        top: 95px;
-    }
-
-    #curr_nav {
-        left: 207px;
-        top: 95px;
-    }
 }
 
 .acad-card {
