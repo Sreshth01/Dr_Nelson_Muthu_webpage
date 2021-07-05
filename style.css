@@ -16,6 +16,12 @@
     --font2: 'Assistant', sans-serif;
 }
 
+ul {
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+  }
+
 html {
     overflow: scroll;
 }
@@ -245,6 +251,12 @@ body {
     top: 27.694vh;
 }
 
+.land-wrapper{
+    position:relative;
+    width:100vw;
+    height : 798px;
+}
+
 .Nelson-Muthu-img {
     position: static;
     width: 35.5556vw;
@@ -401,35 +413,31 @@ body {
 }
 
 .pub-book {
-    position: static;
+    position: relative;
     width: 100vw;
     height: 934px;
     left: 0px;
-    top: 1622px;
 }
 
 .pat-book {
-    position: static;
+    position: relative;
     width: 100vw;
     height: 644px;
     left: 0px;
-    top: 1153px;
 }
 
 .past-book {
-    position: static;
+    position: relative;
     width: 100vw;
     height: 934px;
     left: 0px;
-    top: 2442px;
 }
 
 .curr-book {
-    position: static;
+    position: relative;
     width: 100vw;
     height: 942px;
     left: 0px;
-    top: 1440px;
 }
 
 .title-pub {
@@ -1525,4 +1533,22 @@ top: 101px;
     /* White */
     border: 0.5px solid var(--white);
     transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.test-flex{
+display: flex;
+flex-direction: column;
+align-items: auto;
+justify-content: space-between;
+inset:0;
+width:auto;
+height:100%;
+flex-wrap: nowrap;
+}
+
+.test-item{
+    flex:none;
+    flex-grow: 0;;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
