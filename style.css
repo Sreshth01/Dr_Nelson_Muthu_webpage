@@ -1242,17 +1242,17 @@ top: 101px;
 
 @media screen and (max-width: 1146px) {
     #pub_nav {
-        inset: 95px 0px 580px;
+        inset: 95px 0px 36.25em;
         margin: auto;
     }
 
     #past_nav {
-        inset: 95px 0px 580px;
+        inset: 95px 0px 36.25em;
         margin: auto;
     }
 
     #curr_nav {
-        inset: 95px 0px 580px;
+        inset: 95px 0px 36.25em;
         margin: auto;
     }
 
