@@ -1167,6 +1167,8 @@ top: 101px;
     }
 }
 
+
+
 @media screen and (min-width: 1147px) {}
 
 .acad-card {
@@ -1819,11 +1821,9 @@ top: 101px;
 /*RESEARCH CSS*/
 
 .res-book {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
     position: relative;
-    width: 100%;
+    max-width: 1440px;
+    min-width:100vw;
     height: 733px;
     left: 0px;
 }
@@ -1836,12 +1836,30 @@ top: 101px;
     color: var(--blue100);
 }
 
+.over-wrapper{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+max-width: inherit;
+width: inherit;
+height: auto;
+}
+
+.over-rect{
+    flex:none;
+    order: 0;
+    flex-grow: 0;
+    position: relative;
+}
+
 .tan-rect-res {
     height: 677px;
-    left: 672px;
-    position: absolute;
+    margin-left: -10vw;
+    right:-10vw;
+    position: relative;
     margin-top: 98px;
-    min-width: 925px;
+    width:760px;
+
     background: #FCF0E4;
     /* Inner Shadow */
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04), inset 0px -2px 4px rgba(0, 0, 0, 0.04);
@@ -1850,11 +1868,11 @@ top: 101px;
 }
 
 .blue-rect-res {
-    position: absolute;
-    width: 733px;
+    position: relative;
+    width:733px;
     height: 549px;
-    left: 0px;
     top: 125px;
+    margin-right: -2vw;
     background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
     border-radius: 0px 5px 5px 0px;
 }
@@ -1866,8 +1884,6 @@ top: 101px;
     padding: 0;
     width: 609px;
     height: 364px;
-    /* margin-left: 100px; */
-    /* margin-top: 110px; */
     padding-top: 70px;
     inset: 0;
     margin: auto;
@@ -1978,7 +1994,7 @@ right-col {
 .tan-res-frame {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: flex-start;
     padding: 0px;
     position: absolute;
@@ -2010,7 +2026,7 @@ right-col {
 .tan-res-content {
     position: static;
     width: 525px;
-    height: 379px;
+    height:auto;
     left: 0px;
     margin-top: 12px;
     color: var(--blue100);
@@ -2021,8 +2037,7 @@ right-col {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-    position: absolute;
+    position: relative;
     width: 526.89px;
     height: 24px;
     left: 0px;
@@ -2064,9 +2079,9 @@ right-col {
     align-items: flex-start;
     display: flex;
     min-width: 182px;
-    margin-top: 66px;
     left: 0px;
     height: 58px;
+    margin-top: 20px;
 }
 
 .cv-rect {
@@ -2133,3 +2148,51 @@ right-col {
     /* padding-bottom: 100px; */
     /* height: 500px; */
 }
+
+@media screen and (max-width: 1439px) {
+    #tan-rect-res{
+        width:50vw;
+        }
+
+    #blue-rect-res{
+        width:50vw;
+    }
+    #blue-res-body{
+        padding-left:20px;
+        padding-right:10px;
+    }
+    #tan-res-frame{
+        padding-left:30px;
+        padding-right:20px;
+    }
+}
+
+@media screen and (max-width: 1146px) {
+    #over-wrapper{
+        flex-direction: column;
+        align-items: center;
+        left:0;
+    }
+    #tan-rect-res{
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        right:0;
+        margin-left: 0;
+        border-radius:0px;
+
+    }
+    #blue-rect-res{
+        width: 70vw;
+        margin-right: 0;
+        align-self: center;
+        border-radius: 5px;
+    }
+    #blue-res-body{
+        inset:0;
+        margin:auto;
+        padding-left:20px;
+        padding-right:20px;
+    }
+}
+
