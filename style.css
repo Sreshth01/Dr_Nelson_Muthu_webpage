@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap');
-
 :root {
     --red: #E55C31;
     --white: #FFFFFF;
@@ -474,7 +473,6 @@ body {
 
 .view-all-pub {
     position: absolute;
-
     height: 34px;
     left: 100px;
     margin-top: 2px;
@@ -1148,21 +1146,17 @@ top: 101px;
         margin-left: auto;
         margin-right: auto;
     }
-
     #past_nav {
         margin-left: auto;
         margin-right: auto;
     }
-
     #curr_nav {
         margin-left: auto;
         margin-right: auto;
     }
-
     #menu_book {
         display: none;
     }
-
     #verify_book {
         display: none;
     }
@@ -1319,6 +1313,8 @@ top: 101px;
 
 .courses-card {
     position: relative;
+    width: 350px;
+    height: 433px;
     /* Shadow */
     filter: drop-shadow(0px 2px 10px rgba(27, 39, 50, 0.15)) drop-shadow(0px 5px 10px rgba(27, 39, 50, 0.1)) drop-shadow(2px 4px 10px rgba(27, 39, 50, 0.15));
 }
@@ -1430,7 +1426,9 @@ top: 101px;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+
 /*FOOTER CSS */
+
 .footer {
     align-items: center;
     display: flex;
@@ -1465,7 +1463,6 @@ top: 101px;
 
 .name-foot {
     color: var(--white);
-
     margin-left: 8px;
     min-height: 40px;
     display: flex;
@@ -1489,12 +1486,8 @@ top: 101px;
     flex-direction: row;
     align-items: center;
     align-items: flex-start;
-
     height: 22px;
-
-
     width: 489px;
-
     inset: 90px 0px 91px;
     margin: auto;
     justify-content: space-between;
@@ -1507,11 +1500,8 @@ top: 101px;
 .links-content {
     align-items: center;
     padding: 0px;
-
     position: static;
-
     color: var(--white);
-
     flex: none;
 }
 
@@ -1520,10 +1510,7 @@ top: 101px;
     left: 165px;
     right: 165px;
     margin-top: 148px;
-
-
     /* White */
-
     border: 0.2px solid #FFFFFF;
     opacity: 0.2;
 }
@@ -1556,13 +1543,10 @@ top: 101px;
 .socil-links-content {
     align-items: center;
     padding: 0px;
-
     position: static;
-
-
-
     flex: none;
 }
+
 
 /*OVER*/
 
@@ -1598,8 +1582,8 @@ top: 101px;
 
 .title-acads {
     position: relative;
-    width: 195px;
-    height: 45px;
+    /* width: 195px; */
+    /* height: 45px; */
     left: 100px;
     top: 0px;
 }
@@ -1635,15 +1619,12 @@ top: 101px;
 
 .view-all-proj {
     position: absolute;
-
     height: 34px;
     left: 100px;
     margin-top: 2px;
     top: 47px;
     color: var(--blue-light)
 }
-
-
 
 .tan-rect {
     height: 673px;
@@ -1653,12 +1634,9 @@ top: 101px;
     min-width: 925px;
     background: #FCF0E4;
     /* Inner Shadow */
-
-    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04),
-        inset 0px -2px 4px rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04), inset 0px -2px 4px rgba(0, 0, 0, 0.04);
     border-radius: 5px 0px 0px 5px;
     z-index: -1;
-
 }
 
 .blue-rect {
@@ -1667,7 +1645,6 @@ top: 101px;
     height: 559px;
     left: 0px;
     top: 137px;
-
     background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
     border-radius: 0px 5px 5px 0px;
     z-index: 1;
@@ -1676,16 +1653,13 @@ top: 101px;
 .blue-frame {
     display: flex;
     flex-direction: column;
-
     align-items: flex-start;
     padding: 0px;
-
     position: absolute;
     width: 462px;
     height: 487px;
     left: 124px;
     top: 37px;
-
 }
 
 .tab {
@@ -1709,7 +1683,6 @@ top: 101px;
     width: 462px;
     height: 140px;
     left: 0px;
-
 }
 
 .grp-blue>div {
@@ -1728,7 +1701,6 @@ top: 101px;
     height: 80px;
     width: 452px;
     text-align: justify;
-
 }
 
 .iitg {
@@ -1747,11 +1719,8 @@ top: 101px;
     width: 462px;
     height: 0px;
     left: 0px;
-
-
     opacity: 0.2;
     /* White */
-
     border: 0.5px solid #FFFFFF;
 }
 
@@ -1790,7 +1759,6 @@ top: 101px;
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
-
     position: absolute;
     width: 596px;
     height: 429px;
@@ -1798,7 +1766,6 @@ top: 101px;
     /* top: 104px; */
     inset: 0;
     margin: auto;
-
 }
 
 .proj-name {
@@ -1838,7 +1805,9 @@ top: 101px;
     color: var(--pub-red);
 }
 
+
 /* over */
+
 
 /*RESEARCH CSS*/
 
@@ -1854,7 +1823,6 @@ top: 101px;
 
 .title-res {
     position: absolute;
-
     height: 45px;
     left: 100px;
     top: 0px;
@@ -1869,12 +1837,9 @@ top: 101px;
     min-width: 925px;
     background: #FCF0E4;
     /* Inner Shadow */
-
-    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04),
-        inset 0px -2px 4px rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04), inset 0px -2px 4px rgba(0, 0, 0, 0.04);
     border-radius: 5px 0px 0px 5px;
     z-index: -1;
-
 }
 
 .blue-rect-res {
@@ -1883,7 +1848,6 @@ top: 101px;
     height: 549px;
     left: 0px;
     top: 125px;
-
     background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
     border-radius: 0px 5px 5px 0px;
 }
@@ -1893,7 +1857,6 @@ top: 101px;
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-
     width: 609px;
     height: 364px;
     /* margin-left: 100px; */
@@ -1923,7 +1886,6 @@ top: 101px;
     left: 0px;
     margin-top: 12px;
     color: var(--white);
-
 }
 
 .blue-res-content {
@@ -1945,7 +1907,6 @@ top: 101px;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-
     width: 542px;
     height: 200px;
     left: 0px;
@@ -1957,12 +1918,10 @@ left-col {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     width: 269px;
     height: 200px;
     left: 0px;
     top: 0px;
-
 }
 
 .left-col>div {
@@ -1973,18 +1932,15 @@ left-col {
 .grp-1 {
     align-items: flex-start;
     display: flex;
-
 }
 
 .all-inclusive {
     align-items: flex-start;
     background: url("./media/all_inclusive.svg");
-
     display: flex;
     height: 15px;
     padding: 6.6px 0;
     width: 24px;
-
 }
 
 .text-all {
@@ -2000,12 +1956,10 @@ right-col {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     width: 233px;
     height: 200px;
     right: 0px;
     top: 0px;
-
 }
 
 .right-col>div {
@@ -2020,7 +1974,6 @@ right-col {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0px;
-
     position: absolute;
     width: 540px;
     height: 565.03px;
@@ -2040,11 +1993,9 @@ right-col {
     width: 525px;
     height: 0px;
     left: 0px;
-
     margin-top: 12px;
     opacity: 0.6;
     /* Red */
-
     border: 0.5px solid #E55C31;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -2064,13 +2015,11 @@ right-col {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-
     position: absolute;
     width: 526.89px;
     height: 24px;
     left: 0px;
     margin-top: 12px;
-
 }
 
 .res-contact>div {
@@ -2082,12 +2031,10 @@ right-col {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-
     width: 200px;
     height: 24px;
     top: 0px;
 }
-
 
 .cont-grp {
     position: relative;
@@ -2096,9 +2043,7 @@ right-col {
     color: var(--blue70);
     margin-left: 2px;
     width: 180px;
-
 }
-
 
 .cont-img {
     position: relative;
@@ -2106,7 +2051,6 @@ right-col {
     height: 15.96px;
     top: -1px;
     opacity: 0.85;
-
 }
 
 .view-cv-res {
@@ -2124,9 +2068,7 @@ right-col {
     height: 58px;
     left: 0px;
     top: 0px;
-
     /* Blue Light */
-
     background: #435C70;
     border-radius: 5px;
 }
@@ -2141,4 +2083,46 @@ right-col {
     align-items: center;
     text-align: center;
     color: #FFFFFF;
+}
+
+.exp-carousel {
+    position: relative;
+    /* top: -40px; */
+    width: 350px;
+    padding-left: 185px;
+    /* padding-right: 80px; */
+    /* padding-top: -10px; */
+}
+
+.exp-line {
+    position: relative;
+    width: 600px;
+    height: 0px;
+    left: 260px;
+    top: -310px;
+    opacity: 0.5;
+    /* Blue Light */
+    border: 0.5px solid #435C70;
+    transform: rotate(-90deg);
+}
+
+.exp_d {
+    position: relative;
+    left: 625px;
+    top: -630px;
+}
+
+.view-courses {
+    position: relative;
+    left: 100px;
+    color: var(--blue70);
+}
+
+.courses-carousel {
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    /* padding-bottom: 100px; */
+    /* height: 500px; */
 }
