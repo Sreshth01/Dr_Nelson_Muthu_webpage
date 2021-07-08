@@ -2349,3 +2349,281 @@ right-col {
 
 
 }
+
+/**NEW LANDING */
+
+.land-book {
+    position: relative;
+    width: 100%;
+    height: 798px;
+    left: 0px;
+    top: 0px;
+}
+
+.land-tan {
+    position: relative;
+    width: 500px;
+    height: 798px;
+    left: 0px;
+    top: 0px;
+
+    /* Skin Light */
+
+    background: #FCF0E4;
+    /* Inner Shadow */
+
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04),
+        inset 0px -2px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 0px 0px 5px 0px;
+
+}
+
+.land-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+
+    position: absolute;
+    width: 1157px;
+    height: 512px;
+    left: 100px;
+    top: 221px;
+}
+
+
+
+.muthu-img {
+    position: static;
+    width: 463px;
+    height: 512px;
+    left: 0px;
+    top: 0px;
+
+    background: url("/media/Nelson-Muthu.png");
+    border-radius: 1px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.land-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 574px;
+    height: 509px;
+    right: 0px;
+    top: 0px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.land-intro {
+    position: static;
+    width: 574px;
+    height: 201px;
+    left: 0px;
+    top: 0px;
+    justify-content: space-between;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.intro-name {
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    color: var(--blue100);
+}
+
+.sub-intro-land {
+    position: absolute;
+    width: 574px;
+    height: 135px;
+    left: 0px;
+    top: 66px;
+    color: var(--blue-light);
+}
+
+.interest-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 518px;
+    height: 100px;
+    left: 0px;
+    top: 243px;
+    margin-top: 42px;
+}
+
+.int-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 271px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+.int-left>div {
+    margin-top: 14px;
+
+}
+
+.grp-left {
+    align-items: flex-start;
+    display: flex;
+}
+
+.all-inclusive-img {
+    align-items: flex-start;
+    background: url("./media/all_inclusive\ red.svg");
+    display: flex;
+    height: 15px;
+    padding: 6.6px 0;
+    width: 24px;
+}
+
+.text-land {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4px;
+    height: 24px;
+    color: var(--pub-red);
+}
+
+.int-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 250px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+.int-right>div {
+    margin-top: 14px;
+    margin-left: 35px;
+}
+
+.land-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    width: 526.89px;
+    height: 24px;
+    left: 0px;
+    margin-top: 42px;
+
+}
+
+.land-contact>div {
+    margin-right: 36px;
+}
+
+.grp-land-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 200px;
+    height: 24px;
+    top: 0px;
+}
+
+
+/*SMALL LANDING PAGE*/
+
+.small-land-intro {
+    position: absolute;
+    width: 430px;
+    height: 281px;
+    left: 104px;
+    top: 195px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.small-rect {
+    position: relative;
+    width: 430px;
+    height: 77px;
+    left: 0px;
+
+
+    /* Blue Light */
+
+    border: 1px solid #435C70;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.rect-content {
+    position: absolute;
+    width: 399px;
+    height: 77px;
+    left: 16px;
+    top: 0px;
+
+    display: flex;
+    align-items: center;
+
+
+    color: #435C70;
+
+
+}
+
+.small-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    width: 526.89px;
+    height: 24px;
+    left: 678px;
+    margin-top: 50px;
+}
+
+.small-contact>div {
+    margin-right: 36px;
+}
