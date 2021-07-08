@@ -12,12 +12,9 @@
 <body>
     <div>
         <div class="title-acads bit32">Courses Taught</div>
-        <div class="view-courses ast24">
-            View Teaching & Openings here
-            <img src="media/d_arrow.svg" alt="">
-        </div>
+
         <div class="courses-carousel">
-            <div class="splide">
+            <div class="splide" id="splide3">
                 <div class="splide__track">
                     <div class="splide__list">
                         <div class="splide__slide">
@@ -154,7 +151,7 @@
 </html>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 <script>
-    new Splide('.splide', {
+    new Splide('#splide3', {
         perPage: 3,
         rewind: true,
         height: '475px',

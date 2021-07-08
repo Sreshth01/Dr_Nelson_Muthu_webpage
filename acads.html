@@ -14,7 +14,7 @@
         <div class="title-acads bit32">Academic</div>
 
         <div class="acads-carousel">
-            <div class="splide">
+            <div class="splide" id="splide1">
                 <div class="splide__track">
                     <div class="splide__list">
                         <div class="splide__slide">
@@ -125,7 +125,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 <script>
-    new Splide('.splide', {
+    new Splide('#splide1', {
         perPage: 3,
         rewind: true,
         padding: {
