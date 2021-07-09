@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap');
-
 :root {
     --red: #E55C31;
     --white: #FFFFFF;
@@ -1173,21 +1172,17 @@ top: 101px;
         margin-left: auto;
         margin-right: auto;
     }
-
     #past_nav {
         margin-left: auto;
         margin-right: auto;
     }
-
     #curr_nav {
         margin-left: auto;
         margin-right: auto;
     }
-
     #menu_book {
         display: none;
     }
-
     #verify_book {
         display: none;
     }
@@ -2242,34 +2237,27 @@ right-col {
     #tan-rect-res {
         width: 50vw;
     }
-
     #blue-rect-res {
         width: 50vw;
     }
-
     #tan-rect {
         width: 50vw;
     }
-
     #blue-rect {
         width: 50vw;
     }
-
     #blue-res-body {
         padding-left: 20px;
         padding-right: 10px;
     }
-
     #tan-res-frame {
         padding-left: 30px;
         padding-right: 20px;
     }
-
     #blue-frame {
         padding-left: 20px;
         padding-right: 10px;
     }
-
     #tan-frame {
         padding-left: 30px;
         padding-right: 20px;
@@ -2282,7 +2270,6 @@ right-col {
         align-items: center;
         left: 0;
     }
-
     #tan-rect-res {
         width: 100vw;
         align-items: center;
@@ -2291,14 +2278,12 @@ right-col {
         margin-left: 0;
         border-radius: 0px;
     }
-
     #blue-rect-res {
         width: 70vw;
         margin-right: 0;
         align-self: center;
         border-radius: 5px;
     }
-
     #tan-rect {
         width: 100vw;
         align-items: center;
@@ -2307,21 +2292,18 @@ right-col {
         margin-left: 0;
         border-radius: 0px;
     }
-
     #blue-rect {
         width: 70vw;
         margin-right: 0;
         align-self: center;
         border-radius: 5px;
     }
-
     #blue-res-body {
         inset: 0;
         margin: auto;
         padding-left: 20px;
         padding-right: 20px;
     }
-
     #blue-frame {
         inset: 0;
         margin: auto;
@@ -2577,6 +2559,8 @@ right-col {
     position: relative;
     width: 350px;
     height: 224px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     /* Shadow */
     filter: drop-shadow(0px 2px 10px rgba(27, 39, 50, 0.15)) drop-shadow(0px 5px 10px rgba(27, 39, 50, 0.1)) drop-shadow(2px 4px 10px rgba(27, 39, 50, 0.15));
 }
