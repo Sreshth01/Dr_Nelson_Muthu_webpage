@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap');
+
 :root {
     --red: #E55C31;
     --white: #FFFFFF;
@@ -555,7 +556,7 @@ body {
 
 .past-nav {
     position: absolute;
-    width: 410px;
+    width: 510px;
     height: 83px;
     left: 15vw;
     margin-top: -42px;
@@ -596,9 +597,9 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
+    padding-left: 10px;
     position: absolute;
-    width: 400px;
+    width: 480px;
     height: 53px;
     left: 3px;
     top: 15px;
@@ -1172,17 +1173,21 @@ top: 101px;
         margin-left: auto;
         margin-right: auto;
     }
+
     #past_nav {
         margin-left: auto;
         margin-right: auto;
     }
+
     #curr_nav {
         margin-left: auto;
         margin-right: auto;
     }
+
     #menu_book {
         display: none;
     }
+
     #verify_book {
         display: none;
     }
@@ -2234,27 +2239,34 @@ right-col {
     #tan-rect-res {
         width: 50vw;
     }
+
     #blue-rect-res {
         width: 50vw;
     }
+
     #tan-rect {
         width: 50vw;
     }
+
     #blue-rect {
         width: 50vw;
     }
+
     #blue-res-body {
         padding-left: 20px;
         padding-right: 10px;
     }
+
     #tan-res-frame {
         padding-left: 30px;
         padding-right: 20px;
     }
+
     #blue-frame {
         padding-left: 20px;
         padding-right: 10px;
     }
+
     #tan-frame {
         padding-left: 30px;
         padding-right: 20px;
@@ -2267,6 +2279,7 @@ right-col {
         align-items: center;
         left: 0;
     }
+
     #tan-rect-res {
         width: 100vw;
         align-items: center;
@@ -2275,12 +2288,14 @@ right-col {
         margin-left: 0;
         border-radius: 0px;
     }
+
     #blue-rect-res {
         width: 70vw;
         margin-right: 0;
         align-self: center;
         border-radius: 5px;
     }
+
     #tan-rect {
         width: 100vw;
         align-items: center;
@@ -2289,18 +2304,21 @@ right-col {
         margin-left: 0;
         border-radius: 0px;
     }
+
     #blue-rect {
         width: 70vw;
         margin-right: 0;
         align-self: center;
         border-radius: 5px;
     }
+
     #blue-res-body {
         inset: 0;
         margin: auto;
         padding-left: 20px;
         padding-right: 20px;
     }
+
     #blue-frame {
         inset: 0;
         margin: auto;
