@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap');
-
 :root {
     --red: #E55C31;
     --white: #FFFFFF;
@@ -1173,27 +1172,21 @@ top: 101px;
         margin-left: auto;
         margin-right: auto;
     }
-
     #past_nav {
         margin-left: auto;
         margin-right: auto;
     }
-
     #curr_nav {
         margin-left: auto;
         margin-right: auto;
     }
-
     #menu_book {
         display: none;
     }
-
     #verify_book {
         display: none;
     }
 }
-
-
 
 @media screen and (min-width: 1147px) {}
 
@@ -1511,23 +1504,19 @@ top: 101px;
 }
 
 .back-to-top {
-
     background-image: url("./media/Back\ to\ top.svg");
     background-size: 100% 100%;
     position: static;
     width: 24px;
     height: 24px;
     align-items: flex-end;
-
     top: 45px
 }
 
 .back-to-top:hover {
-
     cursor: pointer;
     background-image: url("./media/back2.svg");
 }
-
 
 .links {
     display: flex;
@@ -1594,13 +1583,13 @@ top: 101px;
     padding: 0px;
     position: static;
     flex: none;
-
 }
 
 .button:hover {
     cursor: pointer;
     background-color: #333;
 }
+
 
 /*OVER*/
 
@@ -1615,11 +1604,9 @@ top: 101px;
     flex-wrap: nowrap;
 }
 
-
 .test-item {
     flex: none;
     flex-grow: 0;
-
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -1691,11 +1678,9 @@ top: 101px;
     position: relative;
     margin-top: 98px;
     width: 760px;
-
     background: #FCF0E4;
     /* Inner Shadow */
-    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04),
-        inset 0px -2px 4px rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04), inset 0px -2px 4px rgba(0, 0, 0, 0.04);
     border-radius: 5px 0px 0px 5px;
     z-index: -1;
 }
@@ -1717,7 +1702,6 @@ top: 101px;
     margin-right: -2vw;
     background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
     border-radius: 0px 5px 5px 0px;
-
 }
 
 .blue-frame {
@@ -1740,7 +1724,6 @@ top: 101px;
     padding-top: 70px;
     inset: 0;
     margin: auto;
-
 }
 
 .tab {
@@ -1771,7 +1754,6 @@ top: 101px;
 }
 
 .date-blue {
-
     width: 89px;
     color: #F5D9BC;
 }
@@ -1779,7 +1761,6 @@ top: 101px;
 .blue-content {
     color: var(--white);
     margin-top: 3px;
-
     width: 452px;
     text-align: justify;
 }
@@ -1867,14 +1848,12 @@ top: 101px;
     display: block;
     margin-top: 15px;
     border-radius: 5px;
-
 }
 
 .val-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     padding: 0px;
     position: static;
     width: 596px;
@@ -1887,13 +1866,11 @@ top: 101px;
     position: static;
     font-feature-settings: 'liga'off;
     text-align: right;
-
     color: var(--blue70);
 }
 
 .proj-val {
     position: static;
-
     height: 81px;
     left: 0px;
     top: 0px;
@@ -1964,7 +1941,6 @@ top: 101px;
     position: relative;
     margin-top: 98px;
     width: 760px;
-
     background: #FCF0E4;
     /* Inner Shadow */
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04), inset 0px -2px 4px rgba(0, 0, 0, 0.04);
@@ -2258,34 +2234,27 @@ right-col {
     #tan-rect-res {
         width: 50vw;
     }
-
     #blue-rect-res {
         width: 50vw;
     }
-
     #tan-rect {
         width: 50vw;
     }
-
     #blue-rect {
         width: 50vw;
     }
-
     #blue-res-body {
         padding-left: 20px;
         padding-right: 10px;
     }
-
     #tan-res-frame {
         padding-left: 30px;
         padding-right: 20px;
     }
-
     #blue-frame {
         padding-left: 20px;
         padding-right: 10px;
     }
-
     #tan-frame {
         padding-left: 30px;
         padding-right: 20px;
@@ -2298,7 +2267,6 @@ right-col {
         align-items: center;
         left: 0;
     }
-
     #tan-rect-res {
         width: 100vw;
         align-items: center;
@@ -2306,16 +2274,13 @@ right-col {
         right: 0;
         margin-left: 0;
         border-radius: 0px;
-
     }
-
     #blue-rect-res {
         width: 70vw;
         margin-right: 0;
         align-self: center;
         border-radius: 5px;
     }
-
     #tan-rect {
         width: 100vw;
         align-items: center;
@@ -2323,32 +2288,27 @@ right-col {
         right: 0;
         margin-left: 0;
         border-radius: 0px;
-
     }
-
     #blue-rect {
         width: 70vw;
         margin-right: 0;
         align-self: center;
         border-radius: 5px;
     }
-
     #blue-res-body {
         inset: 0;
         margin: auto;
         padding-left: 20px;
         padding-right: 20px;
     }
-
     #blue-frame {
         inset: 0;
         margin: auto;
         padding-left: 20px;
         padding-right: 20px;
     }
-
-
 }
+
 
 /**NEW LANDING */
 
@@ -2366,16 +2326,11 @@ right-col {
     height: 798px;
     left: 0px;
     top: 0px;
-
     /* Skin Light */
-
     background: #FCF0E4;
     /* Inner Shadow */
-
-    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04),
-        inset 0px -2px 4px rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04), inset 0px -2px 4px rgba(0, 0, 0, 0.04);
     border-radius: 0px 0px 5px 0px;
-
 }
 
 .land-row {
@@ -2383,7 +2338,6 @@ right-col {
     flex-direction: row;
     justify-content: space-between;
     padding: 0px;
-
     position: absolute;
     width: 1157px;
     height: 512px;
@@ -2391,24 +2345,18 @@ right-col {
     top: 221px;
 }
 
-
-
 .muthu-img {
     position: static;
     width: 463px;
     height: 512px;
     left: 0px;
     top: 0px;
-
     background: url("/media/Nelson-Muthu.png");
     border-radius: 1px;
-
     /* Inside Auto Layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
-
 }
 
 .land-cont {
@@ -2416,16 +2364,12 @@ right-col {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: absolute;
     width: 574px;
     height: 509px;
     right: 0px;
     top: 0px;
-
-
     /* Inside Auto Layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -2438,9 +2382,7 @@ right-col {
     left: 0px;
     top: 0px;
     justify-content: space-between;
-
     /* Inside Auto Layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2469,7 +2411,6 @@ right-col {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     width: 518px;
     height: 100px;
@@ -2483,7 +2424,6 @@ right-col {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     width: 271px;
     height: 100px;
@@ -2491,11 +2431,8 @@ right-col {
     top: 0px;
 }
 
-
-
 .int-left>div {
     margin-top: 14px;
-
 }
 
 .grp-left {
@@ -2526,7 +2463,6 @@ right-col {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     width: 250px;
     height: 100px;
@@ -2548,7 +2484,6 @@ right-col {
     height: 24px;
     left: 0px;
     margin-top: 42px;
-
 }
 
 .land-contact>div {
@@ -2574,10 +2509,7 @@ right-col {
     height: 281px;
     left: 104px;
     top: 195px;
-
-
     /* Inside Auto Layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2588,10 +2520,7 @@ right-col {
     width: 430px;
     height: 77px;
     left: 0px;
-
-
     /* Blue Light */
-
     border: 1px solid #435C70;
     box-sizing: border-box;
     border-radius: 5px;
@@ -2603,14 +2532,9 @@ right-col {
     height: 77px;
     left: 16px;
     top: 0px;
-
     display: flex;
     align-items: center;
-
-
     color: #435C70;
-
-
 }
 
 .small-contact {
@@ -2626,4 +2550,52 @@ right-col {
 
 .small-contact>div {
     margin-right: 36px;
+}
+
+.courses-card-mini {
+    position: relative;
+    width: 350px;
+    height: 224px;
+    /* Shadow */
+    filter: drop-shadow(0px 2px 10px rgba(27, 39, 50, 0.15)) drop-shadow(0px 5px 10px rgba(27, 39, 50, 0.1)) drop-shadow(2px 4px 10px rgba(27, 39, 50, 0.15));
+}
+
+.courses-card-mini-box {
+    position: absolute;
+    width: 322px;
+    height: 180px;
+    left: 0px;
+    top: 31px;
+    padding-bottom: 31px;
+    background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
+    border-radius: 5px;
+}
+
+.courses-card-mini-c_code {
+    /* position: relative; */
+    padding-left: 23px;
+    padding-top: 16px;
+    color: var(--skin);
+}
+
+.courses-card-mini-position {
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 4px;
+    color: var(--red);
+}
+
+.courses-card-mini-c_name {
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 4px;
+    color: var(--white);
+}
+
+.courses-card-mini-duration {
+    position: absolute;
+    padding-left: 23px;
+    bottom: 16px;
+    right: 23px;
+    color: var(--skin);
 }
