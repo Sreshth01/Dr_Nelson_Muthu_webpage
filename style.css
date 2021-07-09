@@ -2350,11 +2350,12 @@ right-col {
 
 .muthu-img {
     position: static;
-    width: 463px;
-    height: 512px;
-    left: 0px;
+    max-width: 463px;
+    max-height: 512px;
+
     top: 0px;
-    background: url("/media/Nelson-Muthu.png");
+
+    display: block;
     border-radius: 1px;
     /* Inside Auto Layout */
     flex: none;
