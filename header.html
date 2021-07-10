@@ -10,49 +10,26 @@
 
 
  <body>
-     <div class="header  responsive" style="margin-top:-40px" id="myTopnav">
+     <div class="header " style="margin-top:-40px" id="myTopnav">
 
 
          <div class="first-head">
              <img class="logo_header" src="media/iitg_logo.png">
              <a class="nelson_header bit17"> Nelson Muthu</a>
          </div>
+
+
          <div class="nav ast17">
-             <div class="nav-cont">
-                 Home
-             </div>
-             <div class="nav-cont">
-                 Teaching
-             </div>
-             <div class="nav-cont">
-                 Projects
-             </div>
-             <div class="nav-cont">
-                 Research & Publications
-             </div>
-             <div class="nav-cont">
-                 Contact
-             </div>
+             <a href="" class="nav-cont" style="text-decoration:none"> Home</a>
+             <a href="" class="nav-cont" style="text-decoration:none">Teaching</a>
+             <a href="" class="nav-cont" style="text-decoration:none"> Projects</a>
+             <a href="" class="nav-cont" style="text-decoration:none"> Research & Publications</a>
+             <a href="" class="nav-cont" style="text-decoration:none">Contact</a>
 
          </div>
-         <a href="javascript:void(0);" class="icon">
-             <i class="fa fa-bars"></i>
-         </a>
+
 
      </div>
  </body>
 
  </html>
-
- <script>
-     var ham = document.querySelector(".icon")
-     var header = document.querySelector(".header")
-     ham.addEventListener("click", () => {
-         if (header.children[1].style.display != "block") {
-             header.children[1].style.display = "block"
-         } else {
-             header.children[1].style.display = "none"
-         }
-
-     })
- </script>
