@@ -5,15 +5,17 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  </head>
 
 
  <body>
-     <div class="header" style="margin-top:-40px">
+     <div class="header  responsive" style="margin-top:-40px" id="myTopnav">
 
-         <img src="media/iitg_logo.png" alt="" class="logo_header">
-         <div class="nelson_header bit17">
-             Nelson Muthu
+
+         <div class="first-head">
+             <img class="logo_header" src="media/iitg_logo.png">
+             <a class="nelson_header bit17"> Nelson Muthu</a>
          </div>
          <div class="nav ast17">
              <div class="nav-cont">
@@ -31,9 +33,26 @@
              <div class="nav-cont">
                  Contact
              </div>
+
          </div>
+         <a href="javascript:void(0);" class="icon">
+             <i class="fa fa-bars"></i>
+         </a>
 
      </div>
  </body>
 
  </html>
+
+ <script>
+     var ham = document.querySelector(".icon")
+     var header = document.querySelector(".header")
+     ham.addEventListener("click", () => {
+         if (header.children[1].style.display != "block") {
+             header.children[1].style.display = "block"
+         } else {
+             header.children[1].style.display = "none"
+         }
+
+     })
+ </script>

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap');
+
+
+
 :root {
     --red: #E55C31;
     --white: #FFFFFF;
@@ -13,7 +16,22 @@
     --skin: #F5D9BC;
     --font1: 'Bitter', serif;
     --font2: 'Assistant', sans-serif;
+
+
 }
+
+.container {
+    --text-size: 16px;
+
+}
+
+.container {
+    font-size: var(--text-size);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
 
 ul {
     list-style-type: none;
@@ -34,7 +52,7 @@ html {
     font-family: var(--font1);
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
+    font-size: calc(1.375*var(--text-size));
     line-height: 160%;
     /* or 35px */
     letter-spacing: 0.03em;
@@ -44,131 +62,157 @@ html {
     font-family: var(--font1);
     font-style: normal;
     font-weight: 600;
-    font-size: 42px;
-    line-height: 50px;
-    letter-spacing: -0.01em;
+    font-size: calc(2.625*var(--text-size));
+    /* font-size: 2.625rem; */
+    line-height: 100%;
+    letter-spacing: -0.01rem;
 }
 
 .ast32 {
     font-family: var(--font2);
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: calc(2*var(--text-size));
+    /* font-size: 2rem; */
     line-height: 140%;
     /* identical to box height, or 45px */
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02rem;
 }
 
 .bit32 {
     font-family: var(--font1);
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: calc(2*var(--text-size));
+    /* font-size: 2rem; */
     line-height: 140%;
     /* identical to box height, or 45px */
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02rem;
 }
 
 .ast24 {
     font-family: var(--font2);
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: calc(1.5*var(--text-size));
+    /* font-size: 1.5rem; */
     line-height: 140%;
     /* identical to box height, or 34px */
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02rem;
 }
 
 .bit24 {
     font-family: var(--font1);
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: calc(1.5*var(--text-size));
+    /* font-size: 1.5rem; */
     line-height: 140%;
     /* identical to box height, or 34px */
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02rem;
 }
 
 .ast18 {
     font-family: var(--font2);
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: calc(1.125*var(--text-size));
+    /* font-size: 1.125rem; */
     line-height: 150%;
     /* identical to box height, or 27px */
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03rem;
 }
 
 .bit18 {
     font-family: var(--font1);
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: calc(1.125*var(--text-size));
+    /* font-size: 1.125rem; */
     line-height: 140%;
     /* or 25px */
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03rem;
 }
 
 .ast17 {
     font-family: var(--font2);
     font-style: normal;
     font-weight: 600;
-    font-size: 17px;
+    font-size: calc(1.0625*var(--text-size));
+    /* font-size: 1.0625rem; */
     line-height: 150%;
     /* identical to box height, or 25px */
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03rem;
 }
 
 .bit17 {
     font-family: var(--font1);
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: calc(1.0625*var(--text-size));
+    /* font-size: 1.0625rem; */
     line-height: 160%;
     /* or 27px */
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03rem;
 }
 
 .ast16 {
     font-family: var(--font2);
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: calc(1*var(--text-size));
+    /* font-size: 1rem; */
     line-height: 140%;
     /* or 22px */
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04rem;
 }
 
 .bit16 {
     font-family: var(--font1);
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: calc(1*var(--text-size));
+    /* font-size: 1rem; */
     line-height: 170%;
     /* or 27px */
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04rem;
 }
 
 .ast14 {
     font-family: var(--font2);
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: calc(0.875*var(--text-size));
+    /* font-size: 0.875rem; */
+    line-height: 170%;
     /* identical to box height, or 171% */
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02rem;
 }
 
 .bit28 {
     font-family: var(--font1);
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: calc(1.75*var(--text-size));
+    /* font-size: 1.75rem; */
     line-height: 140%;
     /* or 39px */
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02rem;
 }
 
+
+@media screen and (min-width: 701px) {
+
+    .container {
+        --text-size: 16px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .container {
+        --text-size: 12px;
+    }
+}
 
 /* .stick {
     position: relative;
@@ -191,19 +235,34 @@ body {
     z-index: 10;
 }
 
-.logo_header {
+.first-head {
+    display: flex;
+    flex-direction: row;
     position: absolute;
-    left: 6.9444vw;
+    justify-content: space-between;
+    left: 104px;
     top: 10px;
-    width: 2.67777vw;
+    width: 167px;
+    max-height: 40px;
+}
+
+.logo_header {
+    position: relative;
+    display: block;
+    left: 0px;
+    top: 0px;
+    width: auto;
+    max-height: 40px;
+    flex: none;
 }
 
 .nelson_header {
-    position: absolute;
-    left: 10.2777vw;
-    top: 13px;
+    position: relative;
+    top: 4px;
+    align-items: flex-end;
     /* Blue Dark */
     color: var(--blue100);
+    flex: none;
 }
 
 .nav {
@@ -225,7 +284,7 @@ body {
 }
 
 .nav-cont {
-    opacity: 50%;
+    opacity: 75%;
 }
 
 .nav-cont:hover {
@@ -233,7 +292,11 @@ body {
     opacity: 100%;
 }
 
-.block1 {
+.header .icon {
+    display: none;
+}
+
+.nav .block1 {
     position: absolute;
     width: 34.7222vw;
     height: 100vh;
@@ -245,6 +308,48 @@ body {
     /* Inner Shadow */
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04), inset 0px -2px 4px rgba(0, 0, 0, 0.04);
     border-radius: 0px 0px 5px 0px;
+}
+
+.responsive {}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1050px) {
+    .header div:not(:first-child) {
+        display: none;
+    }
+
+    .header .first-head {
+        left: 18px;
+    }
+
+    .header a.icon {
+        float: right;
+        display: block;
+        margin-right: 60px;
+        margin-top: 13px;
+
+    }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1050px) {
+    .header .responsive {
+        position: relative;
+    }
+
+    .header a.icon {
+
+        float: right;
+        display: block;
+        margin-right: 60px;
+        margin-top: 13px;
+    }
+
+    .header .responsive {
+        flex-direction: column;
+        display: block;
+        text-align: left;
+    }
 }
 
 .landing_flex {
@@ -1172,17 +1277,21 @@ top: 101px;
         margin-left: auto;
         margin-right: auto;
     }
+
     #past_nav {
         margin-left: auto;
         margin-right: auto;
     }
+
     #curr_nav {
         margin-left: auto;
         margin-right: auto;
     }
+
     #menu_book {
         display: none;
     }
+
     #verify_book {
         display: none;
     }
@@ -1766,7 +1875,7 @@ top: 101px;
     color: var(--white);
     /* margin-top: 3px; */
     top: -15px;
-    width: 452px;
+    width: inherit;
     text-align: justify;
 }
 
@@ -1827,7 +1936,7 @@ top: 101px;
     align-items: center;
     padding: 0px;
     position: absolute;
-    width: 596px;
+    width: inherit;
     height: 733px;
     /* right: 88px; */
     /* top: 104px; */
@@ -1838,7 +1947,7 @@ top: 101px;
 .proj-name {
     color: var(--blue100);
     position: static;
-    width: 597px;
+    width: inherit;
     height: 67px;
     left: -0.5px;
     top: 0px;
@@ -1846,7 +1955,7 @@ top: 101px;
 
 .proj-img {
     position: static;
-    max-width: 596px;
+    max-width: inherit;
     max-height: 312.55px;
     margin-left: auto;
     margin-right: auto;
@@ -1861,7 +1970,7 @@ top: 101px;
     justify-content: space-between;
     padding: 0px;
     position: static;
-    width: 596px;
+    width: inherit;
     height: 81px;
     left: 0px;
     margin-top: 15px;
@@ -1884,7 +1993,7 @@ top: 101px;
 
 .proj-content {
     position: static;
-    width: 598px;
+    width: inherit;
     height: 189px;
     left: -1px;
     margin-top: 15px;
@@ -1894,7 +2003,7 @@ top: 101px;
 
 .proj-foot {
     position: static;
-    width: 596px;
+    width: inherit;
     height: 23px;
     left: 0px;
     margin-top: 15px;
@@ -2239,27 +2348,34 @@ right-col {
     #tan-rect-res {
         width: 50vw;
     }
+
     #blue-rect-res {
         width: 50vw;
     }
+
     #tan-rect {
         width: 50vw;
     }
+
     #blue-rect {
         width: 50vw;
     }
+
     #blue-res-body {
         padding-left: 20px;
         padding-right: 10px;
     }
+
     #tan-res-frame {
         padding-left: 30px;
         padding-right: 20px;
     }
+
     #blue-frame {
         padding-left: 20px;
         padding-right: 10px;
     }
+
     #tan-frame {
         padding-left: 30px;
         padding-right: 20px;
@@ -2272,6 +2388,7 @@ right-col {
         align-items: center;
         left: 0;
     }
+
     #tan-rect-res {
         width: 100vw;
         align-items: center;
@@ -2280,13 +2397,17 @@ right-col {
         margin-left: 0;
         border-radius: 0px;
     }
+
     #blue-rect-res {
+
         width: 70vw;
         margin-right: 0;
         align-self: center;
         border-radius: 5px;
     }
+
     #tan-rect {
+        min-width: 698px;
         width: 100vw;
         align-items: center;
         justify-content: center;
@@ -2294,23 +2415,51 @@ right-col {
         margin-left: 0;
         border-radius: 0px;
     }
+
     #blue-rect {
+        min-width: 698px;
         width: 70vw;
         margin-right: 0;
         align-self: center;
         border-radius: 5px;
     }
+
     #blue-res-body {
         inset: 0;
         margin: auto;
-        padding-left: 20px;
-        padding-right: 20px;
+        /* padding-left: 20px;
+        padding-right: 20px; */
     }
+
     #blue-frame {
         inset: 0;
+        width: inherit;
         margin: auto;
-        padding-left: 20px;
-        padding-right: 20px;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+    }
+
+    #tan-frame {
+        inset: 0;
+        width: inherit;
+        margin: auto;
+
+    }
+
+    #proj-car {
+        inset: 0;
+        width: inherit;
+        margin: auto;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+    }
+
+    #grp-blue {
+        inset: 0;
+        width: inherit;
+        margin: auto;
+        /* padding-left: 20px;
+        padding-right: 20px; */
     }
 }
 
