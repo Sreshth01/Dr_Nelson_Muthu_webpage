@@ -2613,3 +2613,12 @@ right-col {
     padding-right: 50px;
     padding-top: 5px;
 }
+
+.current-carousel {
+    position: relative;
+    /* width: 1300px; */
+    /* padding-left: 50px; */
+    top: -35px;
+    padding-right: 50px;
+    /* padding-top: 5px; */
+}
