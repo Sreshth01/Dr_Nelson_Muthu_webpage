@@ -3123,3 +3123,9 @@ right-col {
         flex-direction: column;
     }
 }
+
+.rev-card-align {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
