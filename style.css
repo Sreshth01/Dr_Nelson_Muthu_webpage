@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap');
-
 :root {
     --red: #E55C31;
     --white: #FFFFFF;
@@ -20,8 +19,6 @@
 
 .container {
     font-size: var(--text-size);
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 ul {
@@ -211,11 +208,12 @@ html {
 
 body {
     min-height: 100vh;
+    margin: 0;
 }
 
 .header {
     background-color: var(--white);
-    width: 99vw;
+    width: 100vw;
     height: 64px;
     left: 0vw;
     margin-top: 0px;
@@ -310,7 +308,6 @@ body {
     .header div:not(:first-child) {
         display: none;
     }
-
     .header .first-head {
         left: 18px;
     }
@@ -1250,27 +1247,23 @@ top: 101px;
         margin-left: auto;
         margin-right: auto;
     }
-
     #past_nav {
         margin-left: auto;
         margin-right: auto;
     }
-
     #curr_nav {
         margin-left: auto;
         margin-right: auto;
     }
-
     #menu_book {
         display: none;
     }
-
     #verify_book {
         display: none;
     }
 }
 
-/* @media screen and (min-width: 1147px) {} */
+@media screen and (min-width: 1147px) {}
 
 .acad-card {
     position: relative;
@@ -1438,7 +1431,7 @@ top: 101px;
     position: absolute;
     width: 96.79px;
     height: 96.78px;
-    left: 244.67px;
+    left: 254.67px;
     /* width: 100vw; */
 }
 
@@ -1702,17 +1695,17 @@ top: 101px;
 
 .title-acads {
     position: relative;
-    /* width: 195px; */
+    width: max-content;
     /* height: 45px; */
-    left: 100px;
+    left: 7.142vw;
     top: 0px;
 }
 
 .acads-carousel {
     position: relative;
     /* width: 1300px; */
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 9.143vw;
+    padding-right: 3.571vw;
     padding-top: 24px;
 }
 
@@ -2234,10 +2227,9 @@ right-col {
 .cont-grp {
     position: relative;
     height: 24px;
-    top: 0px;
     color: var(--blue70);
     margin-left: 2px;
-    width: 180px;
+    width: max-content;
 }
 
 .cont-img {
@@ -2254,7 +2246,8 @@ right-col {
     min-width: 182px;
     left: 0px;
     height: 58px;
-    margin-top: 20px;
+    position: relative;
+    flex: none;
 }
 
 .cv-rect {
@@ -2309,14 +2302,15 @@ right-col {
 
 .view-courses {
     position: relative;
-    left: 100px;
+    left: 8.142vw;
+    width: max-content;
     color: var(--blue70);
 }
 
 .courses-carousel {
     position: relative;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 8.714vw;
+    padding-right: 5.714vw;
     padding-top: 24px;
     /* padding-bottom: 100px; */
     /* height: 500px; */
@@ -2326,34 +2320,27 @@ right-col {
     #tan-rect-res {
         width: 50vw;
     }
-
     #blue-rect-res {
         width: 50vw;
     }
-
     #tan-rect {
         width: 50vw;
     }
-
     #blue-rect {
         width: 50vw;
     }
-
     #blue-res-body {
         padding-left: 20px;
         padding-right: 10px;
     }
-
     #tan-res-frame {
         padding-left: 30px;
         padding-right: 20px;
     }
-
     #blue-frame {
         padding-left: 20px;
         padding-right: 10px;
     }
-
     #tan-frame {
         padding-left: 30px;
         padding-right: 20px;
@@ -2366,7 +2353,6 @@ right-col {
         align-items: center;
         left: 0;
     }
-
     #tan-rect-res {
         width: 100vw;
         align-items: center;
@@ -2375,14 +2361,12 @@ right-col {
         margin-left: 0;
         border-radius: 0px;
     }
-
     #blue-rect-res {
         width: 70vw;
         margin-right: 0;
         align-self: center;
         border-radius: 5px;
     }
-
     #tan-rect {
         min-width: 698px;
         width: 100vw;
@@ -2392,7 +2376,6 @@ right-col {
         margin-left: 0;
         border-radius: 0px;
     }
-
     #blue-rect {
         min-width: 698px;
         width: 70vw;
@@ -2400,14 +2383,12 @@ right-col {
         align-self: center;
         border-radius: 5px;
     }
-
     #blue-res-body {
         inset: 0;
         margin: auto;
         /* padding-left: 20px;
         padding-right: 20px; */
     }
-
     #blue-frame {
         inset: 0;
         width: inherit;
@@ -2415,13 +2396,11 @@ right-col {
         /* padding-left: 20px;
         padding-right: 20px; */
     }
-
     #tan-frame {
         inset: 0;
         width: inherit;
         margin: auto;
     }
-
     #proj-car {
         inset: 0;
         width: inherit;
@@ -2429,7 +2408,6 @@ right-col {
         /* padding-left: 20px;
         padding-right: 20px; */
     }
-
     #grp-blue {
         inset: 0;
         width: inherit;
@@ -2445,7 +2423,7 @@ right-col {
 .land-book {
     position: relative;
     width: 100%;
-    height: 798px;
+    height: fit-content;
     left: 0px;
     top: 0px;
 }
@@ -2476,7 +2454,7 @@ right-col {
 }
 
 .muthu-img {
-    position: static;
+    position: relative;
     max-width: 463px;
     max-height: 512px;
     top: 0px;
@@ -2493,21 +2471,23 @@ right-col {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    position: absolute;
+    position: relative;
     width: 574px;
     height: 509px;
     right: 0px;
     top: 0px;
     /* Inside Auto Layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+}
+
+.land-cont>div {
+    margin: 15px 0;
+    ;
 }
 
 .land-intro {
-    position: static;
-    width: 574px;
-    height: 201px;
+    position: relative;
+    width: auto;
+    height: auto;
     left: 0px;
     top: 0px;
     justify-content: space-between;
@@ -2518,7 +2498,7 @@ right-col {
 }
 
 .intro-name {
-    position: absolute;
+    position: relative;
     width: 340px;
     height: 50px;
     left: 0px;
@@ -2527,12 +2507,14 @@ right-col {
 }
 
 .sub-intro-land {
-    position: absolute;
-    width: 574px;
-    height: 135px;
+    position: relative;
+    width: max-content;
+    height: auto;
     left: 0px;
-    top: 66px;
     color: var(--blue70);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .interest-flex {
@@ -2540,12 +2522,16 @@ right-col {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    position: static;
+    position: relative;
     width: 518px;
-    height: 100px;
-    left: 0px;
-    top: 243px;
-    margin-top: 42px;
+    height: auto;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.interest-flex>div {
+    margin-right: 0px;
 }
 
 .int-left {
@@ -2553,11 +2539,10 @@ right-col {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    position: static;
-    width: 271px;
-    height: 100px;
-    left: 0px;
-    top: 0px;
+    position: relative;
+    width: max-content;
+    height: auto;
+    flex: none;
 }
 
 .int-left>div {
@@ -2592,11 +2577,9 @@ right-col {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    position: static;
-    width: 250px;
-    height: 100px;
-    left: 0px;
-    top: 0px;
+    position: relative;
+    width: max-content;
+    height: auto;
 }
 
 .int-right>div {
@@ -2612,7 +2595,6 @@ right-col {
     width: 526.89px;
     height: 24px;
     left: 0px;
-    margin-top: 42px;
 }
 
 .land-contact>div {
@@ -2624,32 +2606,86 @@ right-col {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    width: 200px;
+    width: max-content;
     height: 24px;
     top: 0px;
+}
+
+@media screen and (max-width: 1300px) {
+    #land-tan {
+        width: 100vw;
+        height: 420px;
+        border-radius: 5px 0px 0px 5px;
+    }
+    #land-row {
+        width: 981px;
+        height: 509px;
+        left: 104px;
+        top: 196px;
+    }
+    #muthu-img {
+        max-width: 347px;
+        max-height: 384px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #land-book {
+        width: 100vw;
+        height: auto;
+        align-items: center;
+    }
+    #land-tan {
+        width: 100vw;
+        height: 280px;
+        border-radius: 5px 0px 0px 5px;
+    }
+    #land-cont>div {
+        margin: 5px 0;
+    }
+    #land-row {
+        left: 0;
+        right: 0;
+        align-self: center;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        top: 103px;
+    }
+    #muthu-img {
+        max-width: 284px;
+        max-height: 314px;
+    }
+    #land-cont {
+        width: 352px;
+        height: 100px;
+    }
+    #land- #int-left>div {
+        margin: 2px 0;
+    }
+    #int-right>div {
+        margin: 2px 0;
+    }
+    #interest-flex>div {
+        margin-right: 20px;
+    }
+    #land-contact>div {
+        margin-right: 10px;
+    }
 }
 
 
 /*SMALL LANDING PAGE*/
 
-.small-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    justify-content: space-between;
-    position: absolute;
-    width: 1117.89px;
-    height: 281px;
-    left: 101px;
-    top: 192px;
-}
-
 .small-land-intro {
-    position: relative;
+    position: absolute;
     width: 430px;
     height: 281px;
-
+    left: 104px;
+    top: 195px;
     /* Inside Auto Layout */
     flex: none;
     order: 0;
@@ -2685,7 +2721,7 @@ right-col {
     position: relative;
     width: 526.89px;
     height: 24px;
-
+    left: 678px;
     margin-top: 50px;
 }
 
@@ -2767,57 +2803,48 @@ right-col {
 
 .v_carousel_arrow_prev_pos {
     position: relative;
-    left: -570px;
+    left: 465px;
     top: 250px
 }
 
 .v_carousel_arrow_next_pos {
     position: relative;
-    left: -570px;
+    left: 465px;
     top: -250px
 }
 
-.row2 {
+.acads-arrow-prev-pos {
     position: relative;
-    width: 540.89px;
-    height: 266px;
+    left: -50px;
 }
 
-@media screen and (max-width: 1300px) {
-
-    #small-tan {
-        position: relative;
-        width: 565px;
-        height: 540px;
-        left: 0px;
-        top: 0px;
-    }
-
-    #small-land-book {
-        width: 1147px;
-        height: 540px;
-    }
-
-    #small-flex {
-        justify-content: space-between;
-        width: 1100px;
-        height: 281px;
-    }
-
-    #row2 {
-        position: relative;
-
-    }
-
-
+.acads-arrow-next-pos {
+    position: relative;
+    right: -20px;
 }
 
-@media screen and (max-width: 700px) {
-    #small-tan {
-        position: relative;
-        width: 100%;
-        height: 243px;
-        left: 0px;
-        top: 0px;
+.temppp {
+    position: relative;
+    top: -50px
+}
+
+.courses-arrow-prev-pos {
+    position: relative;
+    left: -4.28vw;
+}
+
+.courses-arrow-next-pos {
+    position: relative;
+    right: -5.388vw;
+}
+
+@media screen and (max-width:700px) {
+    .courses-card-mini-box {
+        /* position: relative; */
+        width: 300px;
+    }
+    .courses-card-circle {
+        /* position: relative; */
+        left: 220px;
     }
 }
