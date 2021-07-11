@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap');
-
 :root {
     --red: #E55C31;
     --white: #FFFFFF;
@@ -309,7 +308,6 @@ body {
     .header div:not(:first-child) {
         display: none;
     }
-
     .header .first-head {
         left: 18px;
     }
@@ -1249,21 +1247,17 @@ top: 101px;
         margin-left: auto;
         margin-right: auto;
     }
-
     #past_nav {
         margin-left: auto;
         margin-right: auto;
     }
-
     #curr_nav {
         margin-left: auto;
         margin-right: auto;
     }
-
     #menu_book {
         display: none;
     }
-
     #verify_book {
         display: none;
     }
@@ -1490,6 +1484,8 @@ top: 101px;
 .rev-card {
     position: relative;
     /* Shadow */
+    width: 500px;
+    height: 435px;
     filter: drop-shadow(0px 2px 10px rgba(27, 39, 50, 0.15)) drop-shadow(0px 5px 10px rgba(27, 39, 50, 0.1)) drop-shadow(2px 4px 10px rgba(27, 39, 50, 0.15));
 }
 
@@ -2326,34 +2322,27 @@ right-col {
     #tan-rect-res {
         width: 50vw;
     }
-
     #blue-rect-res {
         width: 50vw;
     }
-
     #tan-rect {
         width: 50vw;
     }
-
     #blue-rect {
         width: 50vw;
     }
-
     #blue-res-body {
         padding-left: 20px;
         padding-right: 10px;
     }
-
     #tan-res-frame {
         padding-left: 30px;
         padding-right: 20px;
     }
-
     #blue-frame {
         padding-left: 20px;
         padding-right: 10px;
     }
-
     #tan-frame {
         padding-left: 30px;
         padding-right: 20px;
@@ -2366,7 +2355,6 @@ right-col {
         align-items: center;
         left: 0;
     }
-
     #tan-rect-res {
         width: 100vw;
         align-items: center;
@@ -2375,14 +2363,12 @@ right-col {
         margin-left: 0;
         border-radius: 0px;
     }
-
     #blue-rect-res {
         width: 70vw;
         margin-right: 0;
         align-self: center;
         border-radius: 5px;
     }
-
     #tan-rect {
         min-width: 698px;
         width: 100vw;
@@ -2392,7 +2378,6 @@ right-col {
         margin-left: 0;
         border-radius: 0px;
     }
-
     #blue-rect {
         min-width: 698px;
         width: 70vw;
@@ -2400,14 +2385,12 @@ right-col {
         align-self: center;
         border-radius: 5px;
     }
-
     #blue-res-body {
         inset: 0;
         margin: auto;
         /* padding-left: 20px;
         padding-right: 20px; */
     }
-
     #blue-frame {
         inset: 0;
         width: inherit;
@@ -2415,13 +2398,11 @@ right-col {
         /* padding-left: 20px;
         padding-right: 20px; */
     }
-
     #tan-frame {
         inset: 0;
         width: inherit;
         margin: auto;
     }
-
     #proj-car {
         inset: 0;
         width: inherit;
@@ -2429,7 +2410,6 @@ right-col {
         /* padding-left: 20px;
         padding-right: 20px; */
     }
-
     #grp-blue {
         inset: 0;
         width: inherit;
@@ -2639,14 +2619,12 @@ right-col {
         height: 420px;
         border-radius: 5px 0px 0px 5px;
     }
-
     #land-row {
         width: 981px;
         height: 509px;
         left: 104px;
         top: 196px;
     }
-
     #muthu-img {
         max-width: 347px;
         max-height: 384px;
@@ -2659,17 +2637,14 @@ right-col {
         height: auto;
         align-items: center;
     }
-
     #land-tan {
         width: 100vw;
         height: 280px;
         border-radius: 5px 0px 0px 5px;
     }
-
     #land-cont>div {
         margin: 5px 0;
     }
-
     #land-row {
         left: 0;
         right: 0;
@@ -2682,29 +2657,23 @@ right-col {
         margin-right: auto;
         top: 103px;
     }
-
     #muthu-img {
         max-width: 284px;
         max-height: 314px;
     }
-
     #land-cont {
         width: 352px;
         height: 100px;
     }
-
     #land- #int-left>div {
         margin: 2px 0;
     }
-
     #int-right>div {
         margin: 2px 0;
     }
-
     #interest-flex>div {
         margin-right: 20px;
     }
-
     #land-contact>div {
         margin-right: 10px;
     }
@@ -2716,7 +2685,6 @@ right-col {
 .small-land-book {
     position: relative;
     width: 100%;
-
     top: -20px;
     height: 537px;
     left: -20px
@@ -2726,7 +2694,6 @@ right-col {
     position: relative;
     height: 537px;
     width: 635px;
-
     left: 0px;
     top: 0px;
     /* Skin Light */
@@ -2741,7 +2708,6 @@ right-col {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-
     position: absolute;
     width: 1117.89px;
     height: 281px;
@@ -2759,16 +2725,13 @@ right-col {
     height: 281px;
     left: 0px;
     top: 0px;
-
 }
 
 .land-intro {
     position: relative;
-
     height: 45px;
     left: 0px;
     top: 0px;
-
     /* Inside Auto Layout */
     flex: none;
     order: 0;
@@ -2778,11 +2741,9 @@ right-col {
 
 .sub-intro-land {
     position: relative;
-
     height: 102px;
     left: 0px;
     top: 20px;
-
     color: var(--blue70);
 }
 
@@ -2810,15 +2771,12 @@ right-col {
 }
 
 .col-2 {
-
     position: relative;
     display: flex;
     flex-direction: column;
     left: 147px;
-
     width: 540.89px;
     height: 266px;
-
 }
 
 .interest-flex-small {
@@ -2828,7 +2786,6 @@ right-col {
     padding: 0px;
     position: relative;
     width: 518px;
-
     height: auto;
     flex: none;
     order: 0;
@@ -2897,7 +2854,6 @@ right-col {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-
     width: 526.89px;
     height: 24px;
     left: 0px;
@@ -2937,7 +2893,6 @@ right-col {
 .view-cv-res {
     display: flex;
     align-items: flex-start;
-
     min-width: 182px;
     left: 0px;
     height: 58px;
@@ -2950,72 +2905,53 @@ right-col {
         width: 565px;
         height: 540px;
     }
-
     #col2 {
         left: 60px;
     }
 }
 
 @media screen and (max-width: 700px) {
-
     #small-land-book {
         width: 100vw;
         height: auto;
         align-items: center;
     }
-
     #small-tan {
         width: 100vw;
         height: 243px;
     }
-
-
-
     #small-flex {
-
         flex-direction: column;
         align-items: center;
         width: auto;
         height: fit-content;
         top: 106px;
         left: -31px;
-
     }
-
     #sub-small {
         top: 10px;
     }
-
     .small-land-intro {
         width: 100vw;
         align-items: flex-start;
     }
-
     .text-land {
         font-size: 11px;
     }
-
-
-
     .small-rect {
         width: inherit;
         height: 43px;
     }
-
     .rect-contact {
         height: inherit;
-
     }
-
     .small-contact {
         width: inherit;
     }
-
     .view-cv-res {
         width: auto;
         height: auto;
     }
-
 }
 
 .courses-card-mini {
@@ -3132,7 +3068,6 @@ right-col {
         /* position: relative; */
         width: 300px;
     }
-
     .courses-card-circle {
         /* position: relative; */
         left: 220px;
@@ -3152,4 +3087,39 @@ right-col {
 .past-arrow-next-pos {
     position: relative;
     right: -2.388vw;
+}
+
+.collab-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    justify-content: space-between;
+    position: absolute;
+    width: 1044px;
+    height: 435px;
+    left: 9.75vw;
+    top: 64px;
+}
+
+.collab-flex-col1 {
+    position: relative;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* margin: 0px 44px; */
+}
+
+.collab-flex-col2 {
+    position: relative;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* margin: 0px 44px; */
+}
+
+@media screen and (max-width:1050px) {
+    .collab-flex {
+        flex-direction: column;
+    }
 }
