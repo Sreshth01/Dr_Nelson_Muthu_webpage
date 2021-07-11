@@ -2848,3 +2848,18 @@ right-col {
         left: 220px;
     }
 }
+
+.past-students-carousel {
+    position: relative;
+    top: -50px;
+}
+
+.past-arrow-prev-pos {
+    position: relative;
+    left: -5.28vw;
+}
+
+.past-arrow-next-pos {
+    position: relative;
+    right: -2.388vw;
+}
