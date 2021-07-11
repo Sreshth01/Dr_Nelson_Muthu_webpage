@@ -16,14 +16,14 @@
             View Teaching & Openings here
             <img src="media/d_arrow.svg" alt="">
         </div>
-        <div class="courses-carousel">
+        <div class="courses-carousel" style="--text-size: 16px;">
             <div class="splide" id="splide4">
                 <div class="splide__arrows">
                     <button class="splide__arrow splide__arrow--prev">
-                        <img src="./media/carousel_arrow_prev.svg" alt="">
+                        <img src="./media/carousel_arrow_prev.svg" alt="" class="courses-arrow-prev-pos">
                     </button>
                     <button class="splide__arrow splide__arrow--next">
-                        <img src="./media/carousel_arrow_next.svg" alt="">
+                        <img src="./media/carousel_arrow_next.svg" alt="" class="courses-arrow-next-pos">
                     </button>
                 </div>
                 <div class="splide__track">
@@ -222,16 +222,12 @@
         height: '600px',
         rewind: true,
         arrows: 'slider',
-        width: '1100px',
-        padding: {
-            left: '3rem',
-            right: '1rem',
-        },
+        // width: '1200px',
         grid: {
             rows: 2,
             cols: 3,
             gap: {
-                row: '-2rem',
+                row: '-4rem',
                 col: '0rem',
             }
         },
@@ -241,17 +237,17 @@
                     rows: 2,
                     cols: 2,
                     gap: {
-                        row: '-2rem',
+                        row: '-4rem',
                         col: '0rem',
                     }
                 }
             },
-            '870': {
+            '800': {
                 grid: {
                     rows: 2,
                     cols: 1,
                     gap: {
-                        row: '-2rem',
+                        row: '-4rem',
                         col: '0rem',
                     }
                 }

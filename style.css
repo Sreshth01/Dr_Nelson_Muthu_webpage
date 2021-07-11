@@ -1431,7 +1431,7 @@ top: 101px;
     position: absolute;
     width: 96.79px;
     height: 96.78px;
-    left: 244.67px;
+    left: 254.67px;
     /* width: 100vw; */
 }
 
@@ -1695,17 +1695,17 @@ top: 101px;
 
 .title-acads {
     position: relative;
-    /* width: 195px; */
+    width: max-content;
     /* height: 45px; */
-    left: 100px;
+    left: 7.142vw;
     top: 0px;
 }
 
 .acads-carousel {
     position: relative;
     /* width: 1300px; */
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 9.143vw;
+    padding-right: 3.571vw;
     padding-top: 24px;
 }
 
@@ -2247,7 +2247,7 @@ right-col {
     left: 0px;
     height: 58px;
     position: relative;
-    flex:none;
+    flex: none;
 }
 
 .cv-rect {
@@ -2302,14 +2302,15 @@ right-col {
 
 .view-courses {
     position: relative;
-    left: 100px;
+    left: 8.142vw;
+    width: max-content;
     color: var(--blue70);
 }
 
 .courses-carousel {
     position: relative;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 8.714vw;
+    padding-right: 5.714vw;
     padding-top: 24px;
     /* padding-bottom: 100px; */
     /* height: 500px; */
@@ -2478,8 +2479,9 @@ right-col {
     /* Inside Auto Layout */
 }
 
-.land-cont > div {
-    margin:15px 0;;
+.land-cont>div {
+    margin: 15px 0;
+    ;
 }
 
 .land-intro {
@@ -2527,7 +2529,8 @@ right-col {
     order: 0;
     flex-grow: 0;
 }
-.interest-flex >div{
+
+.interest-flex>div {
     margin-right: 0px;
 }
 
@@ -2539,7 +2542,7 @@ right-col {
     position: relative;
     width: max-content;
     height: auto;
-    flex:none;
+    flex: none;
 }
 
 .int-left>div {
@@ -2609,78 +2612,70 @@ right-col {
 }
 
 @media screen and (max-width: 1300px) {
-
-    #land-tan{
-        width:100vw;
+    #land-tan {
+        width: 100vw;
         height: 420px;
         border-radius: 5px 0px 0px 5px;
     }
-    #land-row{
+    #land-row {
         width: 981px;
         height: 509px;
         left: 104px;
-        top: 196px;        
+        top: 196px;
     }
-    #muthu-img{
+    #muthu-img {
         max-width: 347px;
         max-height: 384px;
     }
 }
 
-
 @media screen and (max-width:700px) {
-    #land-book{
+    #land-book {
         width: 100vw;
         height: auto;
         align-items: center;
     }
-    
-    #land-tan{
-        width:100vw;
+    #land-tan {
+        width: 100vw;
         height: 280px;
         border-radius: 5px 0px 0px 5px;
     }
-    #land-cont > div {
-        margin:5px 0;
+    #land-cont>div {
+        margin: 5px 0;
     }
-    #land-row{
-        left:0;
-        right:0;
+    #land-row {
+        left: 0;
+        right: 0;
         align-self: center;
         flex-direction: column;
         align-items: center;
         width: auto;
         height: fit-content;
-        margin-left:auto;
+        margin-left: auto;
         margin-right: auto;
-        top: 103px;        
+        top: 103px;
     }
-    #muthu-img{
+    #muthu-img {
         max-width: 284px;
         max-height: 314px;
     }
-    #land-cont
-    {
+    #land-cont {
         width: 352px;
         height: 100px;
     }
-
-    #land-
-
-    #int-left>div {
+    #land- #int-left>div {
         margin: 2px 0;
     }
     #int-right>div {
         margin: 2px 0;
     }
-    #interest-flex >div{
+    #interest-flex>div {
         margin-right: 20px;
     }
-    #land-contact > div{
+    #land-contact>div {
         margin-right: 10px;
     }
 }
-
 
 
 /*SMALL LANDING PAGE*/
@@ -2816,4 +2811,40 @@ right-col {
     position: relative;
     left: -570px;
     top: -250px
+}
+
+.acads-arrow-prev-pos {
+    position: relative;
+    left: -50px;
+}
+
+.acads-arrow-next-pos {
+    position: relative;
+    right: -20px;
+}
+
+.temppp {
+    position: relative;
+    top: -50px
+}
+
+.courses-arrow-prev-pos {
+    position: relative;
+    left: -4.28vw;
+}
+
+.courses-arrow-next-pos {
+    position: relative;
+    right: -5.388vw;
+}
+
+@media screen and (max-width:700px) {
+    .courses-card-mini-box {
+        /* position: relative; */
+        width: 300px;
+    }
+    .courses-card-circle {
+        /* position: relative; */
+        left: 220px;
+    }
 }

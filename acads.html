@@ -13,16 +13,26 @@
     <div>
         <div class="title-acads bit32">Academic</div>
 
-        <div class="acads-carousel">
+        <div class="acads-carousel" style="--text-size: 16px;">
             <div class="splide" id="splide1">
                 <div class="splide__arrows">
                     <button class="splide__arrow splide__arrow--prev">
-                        <img src="./media/carousel_arrow_prev.svg" alt="">
+                        <img src="./media/carousel_arrow_prev.svg" alt="" class="acads-arrow-prev-pos">
                     </button>
                     <button class="splide__arrow splide__arrow--next">
-                        <img src="./media/carousel_arrow_next.svg" alt="">
+                        <img src="./media/carousel_arrow_next.svg" alt="" class="acads-arrow-next-pos">
                     </button>
                 </div>
+                <!-- <div class="splide__pagination">
+                    <div class="splide__pagination__page">
+                        <button class="splide__pagination__item">
+                        
+                    </button>
+                        <button class="splide__pagination__item">
+                        
+                    </button>
+                    </div>
+                </div> -->
                 <div class="splide__track">
                     <div class="splide__list">
                         <div class="splide__slide">
@@ -137,20 +147,21 @@
         perPage: 3,
         rewind: true,
         arrows: 'slider',
+        // pagination: false,
         width: '1100px',
         // gap: '-5rem',
         // arrowPath: 'd="M1.41267 29.6527C0.632225 28.8722 0.631536 27.6071 1.41113 26.8258L10.8037 17.4127C11.5827 16.632 11.5827 15.368 10.8037 14.5873L1.41113 5.17421C0.631535 4.39291 0.632226 3.12777 1.41267 2.34733L2.34579 1.41421C3.12683 0.633165 4.39316 0.633165 5.17421 1.41421L18.3458 14.5858C19.1268 15.3668 19.1268 16.6332 18.3458 17.4142L5.17421 30.5858C4.39316 31.3668 3.12683 31.3668 2.34579 30.5858L1.41267 29.6527Z" fill="#435C70"',
         margin: {
             top: '2rem',
         },
-        padding: {
-            left: '3rem',
-        },
+        // padding: {
+        //     left: '3rem',
+        // },
         breakpoints: {
-            '1200': {
+            '1120': {
                 perPage: 2,
             },
-            '870': {
+            '745': {
                 perPage: 1,
             },
         },
