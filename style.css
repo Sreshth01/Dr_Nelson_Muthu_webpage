@@ -2803,13 +2803,13 @@ right-col {
 
 .v_carousel_arrow_prev_pos {
     position: relative;
-    left: -570px;
+    left: 465px;
     top: 250px
 }
 
 .v_carousel_arrow_next_pos {
     position: relative;
-    left: -570px;
+    left: 465px;
     top: -250px
 }
 
