@@ -3095,7 +3095,7 @@ right-col {
     align-items: flex-start;
     padding: 0px;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
     width: 1044px;
     height: 435px;
     left: 9.75vw;
