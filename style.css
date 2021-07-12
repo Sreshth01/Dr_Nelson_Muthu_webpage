@@ -1494,6 +1494,7 @@ top: 101px;
     width: 96.79px;
     height: 96.78px;
     left: 202px;
+    top: -10px;
     /* width: 100vw; */
 }
 
@@ -1512,7 +1513,7 @@ top: 101px;
     /* position: relative; */
     text-align: center;
     padding-left: 22px;
-    padding-top: 58px;
+    padding-top: 62px;
     color: var(--skin);
 }
 
@@ -2869,20 +2870,20 @@ right-col {
 .collab-flex {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
     justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    padding: 0px;
     position: relative;
     width: 1044px;
     height: 435px;
-    left: 9.75vw;
-    top: 64px;
+    left: calc(50% - 1044px/2);
 }
 
 .collab-flex-col1 {
     position: relative;
     flex: none;
-    order: 1;
+    order: 0;
     flex-grow: 0;
     /* margin: 0px 44px; */
 }
