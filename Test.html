@@ -8,30 +8,25 @@
     <link rel="stylesheet" href="./node_modules/@splidejs/splide/dist/css/splide.min.css">
 </head>
 
-<body>
-    <div class="header" style="margin-top:-40px">
+<body class="container">
+    <div class="header " style="margin-top:-40px" id="myTopnav">
 
-        <img src="media/iitg_logo.png" alt="" class="logo_header">
-        <div class="nelson_header bit17">
-            Nelson Muthu
+
+        <div class="first-head">
+            <img class="logo_header" src="media/iitg_logo.png">
+            <a class="nelson_header bit17"> Nelson Muthu</a>
         </div>
+
+
         <div class="nav ast17">
-            <div class="nav-cont">
-                Home
-            </div>
-            <div class="nav-cont">
-                Teaching
-            </div>
-            <div class="nav-cont">
-                Projects
-            </div>
-            <div class="nav-cont">
-                Research & Publications
-            </div>
-            <div class="nav-cont">
-                Contact
-            </div>
+            <a href="" class="nav-cont" style="text-decoration:none"> Home</a>
+            <a href="" class="nav-cont" style="text-decoration:none">Teaching</a>
+            <a href="" class="nav-cont" style="text-decoration:none"> Projects</a>
+            <a href="" class="nav-cont" style="text-decoration:none"> Research & Publications</a>
+            <a href="" class="nav-cont" style="text-decoration:none">Contact</a>
+
         </div>
+
 
     </div>
     <div class="test-flex">
@@ -47,7 +42,8 @@
 
                 <div class="small-land-intro">
                     <div class="land-intro bit32">Dr. Nelson Muthu</div>
-                    <div class="sub-intro-land ast24">Assistant Professor<br /> Department of Mechanical Engineering Indian Institute of Technology, Guwahati</div>
+                    <div class="sub-intro-land ast24">Assistant Professor<br /> Department of Mechanical Engineering
+                        <br> Indian Institute of Technology, Guwahati</div>
 
                     <div class="small-rect">
                         <div class="rect-content">
@@ -480,135 +476,75 @@
         </div>
         <div class="test-item" style="margin-bottom: 0px;">
             <div>
-                <div class="title-acads bit32">Academic</div>
-
-                <div class="acads-carousel" style="--text-size: 16px;">
-                    <div class="splide" id="splide1">
-                        <div class="splide__arrows">
-                            <button class="splide__arrow splide__arrow--prev">
-                                <img src="./media/carousel_arrow_prev.svg" alt="" class="acads-arrow-prev-pos">
-                            </button>
-                            <button class="splide__arrow splide__arrow--next">
-                                <img src="./media/carousel_arrow_next.svg" alt="" class="acads-arrow-next-pos">
-                            </button>
-                        </div>
-                        <!-- <div class="splide__pagination">
-                            <div class="splide__pagination__page">
-                                <button class="splide__pagination__item">
-                                
-                            </button>
-                                <button class="splide__pagination__item">
-                                
-                            </button>
+                <div class="title-acads bit32">Collaborations</div>
+                <div class="collab-flex">
+                    <div class="collab-flex-col1">
+                        <div class="rev-card">
+                            <div class="rev-card-box">
+                                <div class="rev-card-type bit32">
+                                    Industrial
+                                </div>
+                                <div class="rev-card-name bit17">
+                                    Sadhana
+                                </div>
+                                <div class="rev-card-line">
+                                </div>
                             </div>
-                        </div> -->
-                        <div class="splide__track">
-                            <div class="splide__list">
-                                <div class="splide__slide">
-                                    <div class="acad-card">
-                                        <div class="acad-card-box">
-                                            <div class="acad-card-year bit32">
-                                                2008
-                                            </div>
-                                            <div class="acad-card-degree ast18">
-                                                Bachelor of Technology
-                                            </div>
-                                            <div class="acad-card-institute ast16">
-                                                Indian Institute of Technology, Guwahati
-                                            </div>
-                                        </div>
-                                        <div class="acad-card-circle">
-                                            <img src="media/ice_circle.svg" alt="" class="acad-card-circle-ice">
-                                            <img src="media/iitg_logo.png" alt="" class="acad-card-circle-logo">
-                                        </div>
-                                    </div>
+                            <div class="rev-card-circle">
+                                <img src="media/ice_circle.svg" alt="" class="acad-card-circle-ice">
+                                <img src="media/indus_logo.svg" alt="" class="acad-card-circle-logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collab-flex-col2">
+                        <div class="rev-card">
+                            <div class="rev-card-box">
+                                <div class="rev-card-type bit32">
+                                    Academic
                                 </div>
-                                <div class="splide__slide">
-                                    <div class="acad-card">
-                                        <div class="acad-card-box">
-                                            <div class="acad-card-year bit32">
-                                                2008
-                                            </div>
-                                            <div class="acad-card-degree ast18">
-                                                Bachelor of Technology
-                                            </div>
-                                            <div class="acad-card-institute ast16">
-                                                Indian Institute of Technology, Guwahati
-                                            </div>
-                                        </div>
-                                        <div class="acad-card-circle">
-                                            <img src="media/ice_circle.svg" alt="" class="acad-card-circle-ice">
-                                            <img src="media/iitg_logo.png" alt="" class="acad-card-circle-logo">
-                                        </div>
-                                    </div>
+                                <div class="rev-card-name bit17">
+                                    Sadhana
                                 </div>
-                                <div class="splide__slide">
-                                    <div class="acad-card">
-                                        <div class="acad-card-box">
-                                            <div class="acad-card-year bit32">
-                                                2008
-                                            </div>
-                                            <div class="acad-card-degree ast18">
-                                                Bachelor of Technology
-                                            </div>
-                                            <div class="acad-card-institute ast16">
-                                                Indian Institute of Technology, Guwahati
-                                            </div>
-                                        </div>
-                                        <div class="acad-card-circle">
-                                            <img src="media/ice_circle.svg" alt="" class="acad-card-circle-ice">
-                                            <img src="media/iitg_logo.png" alt="" class="acad-card-circle-logo">
-                                        </div>
-                                    </div>
+                                <div class="rev-card-line">
                                 </div>
-                                <div class="splide__slide">
-                                    <div class="acad-card">
-                                        <div class="acad-card-box">
-                                            <div class="acad-card-year bit32">
-                                                2008
-                                            </div>
-                                            <div class="acad-card-degree ast18">
-                                                Bachelor of Technology
-                                            </div>
-                                            <div class="acad-card-institute ast16">
-                                                Indian Institute of Technology, Guwahati
-                                            </div>
-                                        </div>
-                                        <div class="acad-card-circle">
-                                            <img src="media/ice_circle.svg" alt="" class="acad-card-circle-ice">
-                                            <img src="media/iitg_logo.png" alt="" class="acad-card-circle-logo">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="splide__slide">
-                                    <div class="acad-card">
-                                        <div class="acad-card-box">
-                                            <div class="acad-card-year bit32">
-                                                2008
-                                            </div>
-                                            <div class="acad-card-degree ast18">
-                                                Bachelor of Technology
-                                            </div>
-                                            <div class="acad-card-institute ast16">
-                                                Indian Institute of Technology, Guwahati
-                                            </div>
-                                        </div>
-                                        <div class="acad-card-circle">
-                                            <img src="media/ice_circle.svg" alt="" class="acad-card-circle-ice">
-                                            <img src="media/iitg_logo.png" alt="" class="acad-card-circle-logo">
-                                        </div>
-                                    </div>
-                                </div>
+                            </div>
+                            <div class="rev-card-circle">
+                                <img src="media/ice_circle.svg" alt="" class="acad-card-circle-ice">
+                                <img src="media/book_logo.svg" alt="" class="acad-card-circle-logo">
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+        </div>
+        <div class="test-item" style="margin-bottom: 0px;">
+            <div>
+                <div class="title-acads bit32">Reviewer</div>
+                <!-- <div class="rev-card-align"> -->
+                <div class="rev-card rev-card-align">
+                    <div class="rev-card-box">
+                        <div class="rev-card-type bit32">
+                            Journals
+                        </div>
+                        <div class="rev-card-name bit17">
+                            Sadhana
+                        </div>
+                        <div class="rev-card-line">
+                        </div>
+                    </div>
+                    <div class="rev-card-circle">
+                        <img src="media/ice_circle.svg" alt="" class="acad-card-circle-ice">
+                        <img src="media/journal_logo.svg" alt="" class="acad-card-circle-logo">
+                    </div>
+                </div>
+                <!-- </div> -->
+
+            </div>
+
         </div>
 
     </div>
-
-
 </body>
 
 </html>
