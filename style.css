@@ -3151,6 +3151,8 @@ right-col {
         width: 100vw;
         height: 700px;
         align-items: center;
+        padding-right: 10px;
+
     }
 
     #small-tan {
@@ -3161,6 +3163,8 @@ right-col {
     .col-2 {
         position: relative;
         margin-left: 40px;
+        padding-right: 10px;
+
     }
 
 
@@ -3172,7 +3176,8 @@ right-col {
         width: 250px;
         height: fit-content;
         top: 106px;
-        left: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
 
 
 
@@ -3182,6 +3187,10 @@ right-col {
 
         flex-direction: column;
         align-items: left;
+        padding-left: 60px;
+        padding-right: 10px;
+
+        width: auto;
     }
 
     .small-contact>div {
@@ -3205,26 +3214,29 @@ right-col {
     .small-rect {
         max-width: 340px;
         height: 70px;
+
+
     }
 
     .rect-contact {
         height: auto;
     }
 
-    .small-contact {
-        left: 60px;
-        width: auto;
-    }
+
 
     .view-cv-small {
         width: auto;
         height: auto;
-        left: 60px;
+        padding-left: 60px;
+        padding-right: 10px;
+
         top: 50px;
     }
 
     .interest-flex-small {
-        left: 60px;
+        padding-left: 60px;
+        padding-right: 10px;
+
     }
 
 }
