@@ -1688,10 +1688,10 @@ top: 101px;
 .test-flex {
     display: flex;
     flex-direction: column;
-    align-items: auto;
+    align-items: center;
     justify-content: space-between;
     inset: 0;
-    width: auto;
+    width: 100vw;
     height: 100%;
     flex-wrap: nowrap;
 }
@@ -1699,6 +1699,7 @@ top: 101px;
 .test-item {
     flex: none;
     flex-grow: 0;
+    width: 100vw;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -2449,9 +2450,9 @@ right-col {
 .land-book {
     position: relative;
     width: 100%;
-    height: fit-content;
-    left: 0px;
-    top: 0px;
+
+    /* left: 0px;
+    top: 0px; */
 }
 
 .land-tan {
@@ -2507,7 +2508,7 @@ right-col {
 
 .land-cont>div {
     margin: 15px 0;
-    ;
+
 }
 
 .land-intro {
@@ -2614,13 +2615,15 @@ right-col {
 }
 
 .land-contact {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    position: relative;
+
     width: 526.89px;
     height: 24px;
     left: 0px;
+    margin-top: 50px;
 }
 
 .land-contact>div {
@@ -2638,8 +2641,8 @@ right-col {
 }
 
 @media screen and (max-width: 1300px) {
+
     #land-book {
-        width: 100vw;
         height: 700px;
     }
 
@@ -2651,9 +2654,9 @@ right-col {
 
     #land-row {
         width: 981px;
-        height: 509px;
-        left: 104px;
-        top: 196px;
+
+        top: 170px;
+
     }
 
     #muthu-img {
@@ -2666,7 +2669,18 @@ right-col {
     #land-book {
         width: 100vw;
         height: 900px;
-        align-items: center;
+        left: 0px;
+        top: 0px;
+
+    }
+
+    .land-intro {
+        position: relative;
+        align-items: flex-start;
+
+        justify-content: space-between;
+        width: 340px;
+
         padding-right: 10px;
 
     }
@@ -2674,6 +2688,8 @@ right-col {
     #land-tan {
         width: 100vw;
         height: 280px;
+        left: 0px;
+        top: 0px;
         border-radius: 5px 0px 0px 5px;
     }
 
@@ -2682,16 +2698,15 @@ right-col {
     }
 
     #land-row {
-        left: 0;
-        right: 0;
-        align-self: center;
         flex-direction: column;
-        align-items: center;
-        width: auto;
+        align-items: flex-start;
+        width: 350px;
         height: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
+        /* top: 106px; */
+        inset: 0;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     #muthu-img {
@@ -2699,25 +2714,31 @@ right-col {
         max-height: 314px;
     }
 
+
+
     #land-cont {
         width: 352px;
-        height: 100px;
+        height: fit-content;
     }
 
-    #land- #int-left>div {
-        margin: 2px 0;
+    .land-contact {
+
+        flex-direction: column;
+        align-items: left;
+        height: fit-content;
+
+        margin-top: 0;
+        width: auto;
     }
 
-    #int-right>div {
-        margin: 2px 0;
+    .land-contact>div {
+        margin-top: 10px;
     }
+}
 
-    #interest-flex>div {
-        margin-right: 20px;
-    }
-
-    #land-contact>div {
-        margin-right: 10px;
+@media screen and (max-width:450px) {
+    .sub-intro-land {
+        font-size: 16px;
     }
 }
 
