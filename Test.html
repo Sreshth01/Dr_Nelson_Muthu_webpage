@@ -6,31 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./node_modules/@splidejs/splide/dist/css/splide.min.css">
+
 </head>
 
 <body class="container">
-    <div class="header " style="margin-top:-40px" id="myTopnav">
-
-
+    <header class="header">
         <div class="first-head">
             <img class="logo_header" src="media/iitg_logo.png">
-            <a class="nelson_header bit17"> Nelson Muthu</a>
+            <a class="nelson_header bit17" style="font-size: 17px;"> Nelson Muthu</a>
         </div>
-
-
-        <div class="nav ast17">
-            <a href="" class="nav-cont" style="text-decoration:none"> Home</a>
-            <a href="" class="nav-cont" style="text-decoration:none">Teaching</a>
-            <a href="" class="nav-cont" style="text-decoration:none"> Projects</a>
-            <a href="" class="nav-cont" style="text-decoration:none"> Research & Publications</a>
-            <a href="" class="nav-cont" style="text-decoration:none">Contact</a>
-
-        </div>
-
-
-    </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a class="bit17" style="font-size: 17px;">Home</a></li>
+            <li><a class=" bit17" style="font-size: 17px;">Teaching</a></li>
+            <li><a class="bit17" style="font-size: 17px;"> Projects</a></li>
+            <li><a class="bit17" style="font-size: 17px;">Research &
+                    Publications</a></li>
+            <li><a class="bit17" style="font-size: 17px;color: var(--blue100);">Contact</a></li>
+        </ul>
+    </header>
     <div class="test-flex">
-        <div class="test-item" style="margin-top: 0px;">
+        <div class="test-item">
+            <div class="land-book" id="land-book">
+                <div class="land-tan" id="land-tan"></div>
+
+                <div class="land-row" id="land-row">
+
+                    <div style="order: 0;">
+                        <img class="muthu-img" id="muthu-img" src="media/Nelson-Muthu.png">
+                    </div>
+                    <div class="land-cont" style="order: 1;" id="land-cont">
+                        <div class="land-intro bit42">Dr. Nelson Muthu</div>
+                        <div class="sub-intro-land ast32">Assistant Professor<br /> Department of Mechanical
+                            Engineering<br>
+                            Indian
+                            Institute of Technology, Guwahati</div>
+                        <div class="col-2" id="col2">
+                            <div class="interest-flex" id="interest-flex">
+                                <div class="int-left">
+                                    <div class="grp-left">
+                                        <div class="all-inclusive-img"></div>
+                                        <div class="text-land bit18">Meshfree Methods</div>
+                                    </div>
+
+                                    <div class="grp-left">
+                                        <div class="all-inclusive-img"></div>
+                                        <div class="text-land bit18">Medical Device Innovation</div>
+                                    </div>
+
+                                    <div class="grp-left">
+                                        <div class="all-inclusive-img"></div>
+                                        <div class="text-land bit18">Finite Element Modeling</div>
+                                    </div>
+
+                                </div>
+
+                                <div class="int-right">
+                                    <div class="grp-left">
+                                        <div class="all-inclusive-img"></div>
+                                        <div class="text-land bit18">NDT</div>
+                                    </div>
+
+                                    <div class="grp-left">
+                                        <div class="all-inclusive-img"></div>
+                                        <div class="text-land bit18">Composites</div>
+                                    </div>
+
+                                    <div class="grp-left">
+                                        <div class="all-inclusive-img"></div>
+                                        <div class="text-land bit18">Fracture Mechanics</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="land-contact ast18" id="land-contact">
+                                <div class="grp-land-flex">
+                                    <div class="cont-img">
+                                        <img src="media/icon-phone.svg" />
+                                    </div>
+                                    <div class="cont-grp">+91 361 2583440</div>
+                                </div>
+
+                                <div class="grp-land-flex">
+                                    <div class="cont-img">
+                                        <img src="media/icon-mail.svg" />
+                                    </div>
+                                    <div class="cont-grp">nelsonm [at] iitg.ac.in</div>
+                                </div>
+
+                                <div class="grp-land-flex">
+                                    <div class="cont-img">
+                                        <img src="media/icon-location.svg" />
+                                    </div>
+                                    <div class="cont-grp">Office C-201</div>
+                                </div>
+                            </div>
+
+                            <div class="view-cv-small">
+                                <div class="cv-rect" style="background: #FCF2E8;">
+                                    <div class="cv-text bit22" style="color: #162E41;">View CV</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="test-item">
             <div class="res-book" id="res-book">
                 <div class="title-res bit32">
                     Research
