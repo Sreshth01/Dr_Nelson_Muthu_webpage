@@ -889,8 +889,8 @@ top: 101px;
     flex-direction: row;
     position: relative;
     justify-content: space-between;
-    max-width: 799px;
-    min-width: 300px;
+    width : 95% !important;
+    width: max-content;
     height: auto;
 }
 
@@ -1033,7 +1033,7 @@ top: 101px;
 }
 
 .year-pub {
-    width: 154.7px;
+    width: max-content;
     height: 26.21px;
     /* padding-left: 50px;
     padding-right: 50px; */
