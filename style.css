@@ -2945,37 +2945,12 @@ left-col {
     top: -50px; */
 }
 
-.ver-flex{
-    display: flex !important;
-    flex-direction: row-reverse !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    width: auto !important;
 
-}
 
-.splide__arrows{
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    justify-content: space-between !important;
-    max-width: 16px !important;
-    min-height: 400px !important;
 
-    
-}
 
-.splide__arrow{
-    position: relative !important;
-    max-width: 64px !important; 
-    min-height: 64px !important;
-    inset: 0 !important;
-    margin: auto !important;
-    background: none !important;
-    display: flex !important;
-    align-items: flex-end;
-    justify-content: baseline !important;
-}
+
+
 
 .splide__pagination {
     position: absolute !important;
