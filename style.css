@@ -26,6 +26,10 @@ ul {
     list-style-position: outside;
     list-style-image: none;
 }
+.a {
+    text-decoration: none;
+    color: var(--blue100);
+}
 
 html {
     overflow: scroll;
