@@ -663,16 +663,15 @@ body {
     position: relative;
     width: 560px;
     height: 53px;
-    top:15px;
+    top: 15px;
     color: var(--white);
-    
 }
 
-.pub-nav-contents > div {
+.pub-nav-contents>div {
     opacity: 0.50;
 }
 
-.tab-active{
+.tab-active {
     text-decoration: underline;
     opacity: 1 !important;
     text-decoration-color: var(--red);
@@ -908,17 +907,22 @@ top: 101px;
     left: 0px;
 }
 
+.curr-card-pos {
+    position: relative;
+    width: 50vw;
+}
+
 .grp-curr-sub {
     position: relative;
     margin-top: 11.91px;
-    /* padding-right: 2px; */
     align-items: center;
     display: flex;
-    width: 10vw;
-    /* max-width: 959px; */
+    width: 70vw;
+    max-width: 959px;
 }
 
 .img-curr {
+    position: relative;
     display: block;
     width: 143px;
     height: auto;
@@ -952,8 +956,8 @@ top: 101px;
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    width: 700px;
-    /* min-width: 670px; */
+    width: 70vw;
+    max-width: 670px;
 }
 
 .sub-curr {
@@ -975,12 +979,9 @@ top: 101px;
 }
 
 .name-pub {
-
     max-width: 799px;
     min-width: 250px;
-    height:auto;
-
-
+    height: auto;
     color: var(--red);
     /* padding-left: 50px;
     padding-right: 50px; */
@@ -1063,8 +1064,7 @@ top: 101px;
     position: relative;
     max-width: 799px;
     min-width: 250px;
-    height:auto;
-
+    height: auto;
     margin-top: 14px;
     color: var(--blue70);
 }
@@ -1112,11 +1112,13 @@ top: 101px;
 
 .partition-curr {
     position: relative;
-    width: 840px;
+    width: 80vw;
+    max-width: 840px;
     /* min-width: 300px; */
     height: 0px;
     left: 0px;
     margin-top: 14px;
+    margin-right: 50px;
     opacity: 0.5;
     /* Blue Dark */
     border: 0.5px solid #FFFFFF;
@@ -1137,16 +1139,25 @@ top: 101px;
     .text-curr {
         margin-top: 0px;
     }
+    /* .grp-curr-sub {
+        width: 70vw;
+    } */
     .partition-curr {
         margin-top: 0px;
-    }
-    .grp-curr-sub {
-        width: 70vw;
-    }
-    .partition-curr {
         width: 80vw;
         margin-right: 50px;
-        /* margin-right: 5vw; */
+    }
+}
+
+@media screen and (max-width:700px) {
+    .img-curr {
+        width: 80px;
+        top: -20px
+    }
+    .partition-curr {
+        margin-top: -25px;
+        width: 80vw;
+        margin-right: 50px;
     }
 }
 
@@ -1288,9 +1299,6 @@ top: 101px;
         inset: 0;
         padding: auto;
         height: auto;
-
-
-
     }
     .grp-pub {
         inset: 0;
@@ -1324,7 +1332,7 @@ top: 101px;
     }
     .pub-nav-contents {
         width: 350px;
-        left:4px;
+        left: 4px;
     }
 }
 
@@ -2912,13 +2920,13 @@ left-col {
 
 .v_carousel_arrow_prev_pos {
     position: relative;
-    left: 465px;
+    left: 41vw;
     top: 50px
 }
 
 .v_carousel_arrow_next_pos {
     position: relative;
-    left: 465px;
+    left: 41vw;
     top: -50px
 }
 
