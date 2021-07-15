@@ -26,6 +26,7 @@ ul {
     list-style-position: outside;
     list-style-image: none;
 }
+
 .a {
     text-decoration: none;
     color: var(--blue100);
@@ -524,7 +525,7 @@ body {
 .curr-book {
     position: absolute;
     width: 100vw;
-    height: 942px;
+    /* height: 942px; */
     left: 0px;
 }
 
