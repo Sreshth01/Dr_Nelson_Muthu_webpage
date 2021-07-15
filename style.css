@@ -610,7 +610,7 @@ body {
 
 .curr-body {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: max-content;
     left: 0px;
     top: 137px;
@@ -703,6 +703,25 @@ body {
     left: 3px;
     top: 15px;
     color: var(--blue100)
+}
+
+.curr-nav-contents >div{
+    opacity: 0.5;
+}
+
+@media screen and (max-width : 700px) {
+    .curr-nav {
+        width : 360px;
+        margin-left: auto;
+        margin-right: auto;
+        left:auto;
+        height: 50px ;
+    }
+    .curr-nav-contents{
+        width: 350px;
+        left : 0px;
+        top:0px;
+    }
 }
 
 .line {
@@ -1311,10 +1330,6 @@ top: 101px;
         text-align: left;
     }
     #past_nav {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #curr_nav {
         margin-left: auto;
         margin-right: auto;
     }
@@ -2919,15 +2934,52 @@ left-col {
 }
 
 .v_carousel_arrow_prev_pos {
-    position: relative;
-    left: 41vw;
-    top: 50px
+    position: absolute;
+    /* right:0;
+    top: 50px; */
 }
 
 .v_carousel_arrow_next_pos {
     position: relative;
-    left: 41vw;
-    top: -50px
+    /* right :0;
+    top: -50px; */
+}
+
+.ver-flex{
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: auto !important;
+
+}
+
+.splide__arrows{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    max-width: 16px !important;
+    min-height: 400px !important;
+
+    
+}
+
+.splide__arrow{
+    position: relative !important;
+    max-width: 64px !important; 
+    min-height: 64px !important;
+    inset: 0 !important;
+    margin: auto !important;
+    background: none !important;
+    display: flex !important;
+    align-items: flex-end;
+    justify-content: baseline !important;
+}
+
+.splide__pagination {
+    position: absolute !important;
+    margin-left: -25px;
 }
 
 .acads-arrow-prev-pos {
