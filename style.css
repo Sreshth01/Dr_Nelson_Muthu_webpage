@@ -898,11 +898,6 @@ top: 101px;
     flex-direction: row;
     position: relative;
     justify-content: space-between;
-<<<<<<< HEAD
-    max-width: 799px;
-    min-width: 300px;
-=======
->>>>>>> 726f0722597bd11da31be2f9b8dc5d39b930b44a
     width: 95% !important;
     width: max-content;
     height: auto;
