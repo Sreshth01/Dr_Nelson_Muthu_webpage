@@ -1921,7 +1921,7 @@ top: 101px;
     /* Inner Shadow */
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04), inset 0px -2px 4px rgba(0, 0, 0, 0.04);
     border-radius: 5px 0px 0px 5px;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .blue-rect {
@@ -1941,6 +1941,7 @@ top: 101px;
     margin-right: -2vw;
     background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
     border-radius: 0px 5px 5px 0px;
+    z-index: 1;
 }
 
 .blue-frame {
@@ -2081,11 +2082,12 @@ top: 101px;
 
 .proj-name {
     color: var(--blue100);
-    position: static;
-    width: inherit;
+    display: block;
+    position: relative;
+    /* width: inherit; */
     height: 67px;
-    left: -0.5px;
-    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .proj-img {
@@ -3634,4 +3636,68 @@ a {
 .proj-overflow {
     margin: auto;
     overflow: scroll;
+}
+
+.proj-card-new {
+    position: relative;
+    width: 464px;
+    height: 496px;
+    border-radius: 5px;
+    background: conic-gradient(from 176.58deg at 107.78% -3.88%, #09131B -3.38deg, #162E41 100.05deg, #09131B 356.62deg, #162E41 460.05deg);
+}
+
+.proj-card-img {
+    position: relative;
+    height: 226px;
+    width: auto;
+    border: 17px solid var(--blue70);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.proj-card-new-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 432px;
+    height: 210px;
+    left: 16px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 15px 0px;
+    padding-bottom: 5px;
+}
+
+.proj-card-new-flex-title {
+    color: var(--skin);
+}
+
+.proj-card-new-flex-pname {
+    color: var(--white);
+}
+
+.proj-card-new-flex-spon {
+    display: flex;
+    flex-direction: row;
+    width: 432px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.proj-card-new-view {
+    position: absolute;
+    color: var(--blue70);
+    bottom: 0px;
+    right: 0px;
+    text-decoration: underline;
+}
+
+.proj-carousel {
+    position: relative;
+    z-index: 5 !important;
 }
