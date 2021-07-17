@@ -1945,7 +1945,7 @@ top: 101px;
 */
         position: relative;
         max-width: 680px;
-        width: 20vw;
+        width: 70vw;
         height: 500px;
         top: 125px;
         margin-right: -2vw;
@@ -2533,7 +2533,7 @@ left-col {
         }
 
         #blue-rect {
-            width: 70vw;
+            width: 50vw;
         }
 
         #blue-res-body {
