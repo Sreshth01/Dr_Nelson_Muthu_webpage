@@ -733,6 +733,167 @@
 
             </div>
         </div>
+
+        <div class="test-item">
+            <div class="books-frame">
+
+                <div class="title-book bit32">Books</div>
+
+                <div class="book-body">
+
+                    <div class="book-body-content book-content">
+
+                        <div class="past-students-carousel">
+                            <div class="splide" id="splide-books">
+                                <div class="splide__arrows">
+                                    <button class="splide__arrow splide__arrow--prev">
+                                        <img src="./media/carousel_arrow_prev.svg" alt="" class="past-arrow-prev-pos">
+                                    </button>
+                                    <button class="splide__arrow splide__arrow--next">
+                                        <img src="./media/carousel_arrow_next.svg" alt="" class="past-arrow-next-pos">
+                                    </button>
+                                </div>
+                                <div class="splide__track">
+                                    <div class="splide__list">
+                                        <div class="splide__slide">
+                                            <div class="inner-flex">
+                                                <div class="line-book"></div>
+                                                <div class="inner-inner-flex">
+                                                    <div class="flex-1">
+                                                        <div class="ast16 name-pub">Brian G. Falzon | Nelson Mutthu
+                                                        </div>
+                                                        <div class="ast16 year-pub">2016</div>
+                                                    </div>
+
+                                                    <div class="book-text bit17">Comprehensive Composite Materials III,
+                                                        an
+                                                        comprehensive
+                                                        look
+                                                    </div>
+
+                                                    <div class="partition"></div>
+
+                                                    <div class="flex-1">
+                                                        <div class="ast17 name-pub" style="color: var(--blue70);">Wiley
+                                                            Publications
+                                                        </div>
+                                                        <div class="ast17 year-pub" style="color: var(--blue70);">India
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="splide__slide">
+                                            <div class="inner-flex">
+                                                <div class="line-book"></div>
+                                                <div class="inner-inner-flex">
+                                                    <div class="flex-1">
+                                                        <div class="ast16 name-pub">Brian G. Falzon | Nelson Mutthu
+                                                        </div>
+                                                        <div class="ast16 year-pub">2016</div>
+                                                    </div>
+
+                                                    <div class="book-text bit17">Comprehensive Composite Materials III,
+                                                        an
+                                                        comprehensive
+                                                        look
+                                                    </div>
+
+                                                    <div class="partition"></div>
+
+                                                    <div class="flex-1">
+                                                        <div class="ast17 name-pub" style="color: var(--blue70);">Wiley
+                                                            Publications
+                                                        </div>
+                                                        <div class="ast17 year-pub" style="color: var(--blue70);">India
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="splide__slide">
+                                            <div class="inner-flex">
+                                                <div class="line-book"></div>
+                                                <div class="inner-inner-flex">
+                                                    <div class="flex-1">
+                                                        <div class="ast16 name-pub">Brian G. Falzon | Nelson Mutthu
+                                                        </div>
+                                                        <div class="ast16 year-pub">2016</div>
+                                                    </div>
+
+                                                    <div class="book-text bit17">Comprehensive Composite Materials III,
+                                                        an
+                                                        comprehensive
+                                                        look
+                                                    </div>
+
+                                                    <div class="partition"></div>
+
+                                                    <div class="flex-1">
+                                                        <div class="ast17 name-pub" style="color: var(--blue70);">Wiley
+                                                            Publications
+                                                        </div>
+                                                        <div class="ast17 year-pub" style="color: var(--blue70);">India
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="splide__slide">
+                                            <div class="inner-flex">
+                                                <div class="line-book"></div>
+                                                <div class="inner-inner-flex">
+                                                    <div class="flex-1">
+                                                        <div class="ast16 name-pub">Brian G. Falzon | Nelson Mutthu
+                                                        </div>
+                                                        <div class="ast16 year-pub">2016</div>
+                                                    </div>
+
+                                                    <div class="book-text bit17">Comprehensive Composite Materials III,
+                                                        an
+                                                        comprehensive
+                                                        look
+                                                    </div>
+
+                                                    <div class="partition"></div>
+
+                                                    <div class="flex-1">
+                                                        <div class="ast17 name-pub" style="color: var(--blue70);">Wiley
+                                                            Publications
+                                                        </div>
+                                                        <div class="ast17 year-pub" style="color: var(--blue70);">India
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+
+                <div class="menubook" id="menu_book">
+                    <img class="image-menu" src="media/menu_book.svg">
+                </div>
+
+            </div>
+
+
+
+
+        </div>
         <div class="test-item" style="margin-bottom: 0px;">
             <div>
                 <div class="title-acads bit32">Reviewer</div>
@@ -832,5 +993,57 @@
                 }
             },
         },
+    }).mount(window.splide.Extensions);
+</script>
+<!-- 
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-grid@0.2.0/dist/js/splide-extension-grid.min.js">
+</script>
+
+<script>
+    // new Splide('#splide4').mount(window.splide.Extensions);
+    new Splide('#splide-books', {
+        height: '200px',
+        rewind: true,
+        arrows: 'slider',
+        pagination: false,
+
+
+        width: '960px',
+        // grid: {
+        //     rows: 1,
+        //     cols: 1,
+        //     gap: {
+        //         row: '0rem',
+        //         col: '0rem',
+        //     }
+        // },
+        perPage: 2,
+
+
+
+        breakpoints: {
+            1200: {
+                width: '80vw',
+            },
+            1146: {
+                perPage: 1,
+            },
+            700: {
+                height: '200px',
+                width: '80vw',
+                perPage: 1,
+
+            },
+            500: {
+                height: '150px',
+                width: '80vw',
+                perPage: 1,
+            }
+
+
+        }
+
+
     }).mount(window.splide.Extensions);
 </script>
