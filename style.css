@@ -3436,7 +3436,7 @@ left-col {
         box-shadow: 0px 2px 10px rgba(27, 39, 50, 0.05);
         position: fixed;
         width: 100%;
-        z-index: 3;
+        z-index: 9999;
     }
     
     .header ul {
@@ -3867,5 +3867,130 @@ top: 106px;
         }
         .book-content {
             top: 50px !important;
+        }
+    }
+
+
+    /*PROJECT VIEW */
+
+    .proj-popup {
+
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+        background-color: #b4aaaa;
+    }
+
+    .proj-small {
+        position: relative;
+        width: 676px;
+        height: 770px;
+        inset: 0;
+        margin: auto;
+
+        /* White */
+
+        background: #FFFFFF;
+        border-radius: 5px;
+        z-index: 2;
+    }
+
+    .proj-frame {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        padding-top: 16px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 16px;
+    }
+
+    .proj-frame>div {
+        margin-top: 15px;
+    }
+
+    .proj-view-name {
+        color: var(--blue100);
+        /* display: block; */
+        position: relative;
+        width: inherit;
+        height: 67px;
+        /* inset: 0; */
+        /* margin: auto; */
+    }
+
+    .proj-view-foot {
+
+        position: relative;
+        width: inherit;
+
+        height: 23px;
+
+
+        color: var(--blue70);
+
+    }
+
+    .proj-view-val {
+        position: relative;
+        height: 81px;
+        width: inherit;
+
+        text-align: left;
+        align-items: flex-start;
+        color: var(--blue70);
+    }
+
+    .proj-view-content {
+        position: relative;
+        width: inherit;
+        height: auto;
+
+        text-align: justify;
+        color: var(--blue100);
+    }
+
+    .proj-view-pop {
+        position: relative;
+        display: block;
+        max-width: inherit;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-height: 259px;
+        align-items: center;
+    }
+
+    .proj-view-img {
+        position: relative;
+        display: block;
+        max-width: inherit;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-height: 259px;
+        align-items: center;
+    }
+
+    @media screen and (max-width:700px) {
+        .proj-frame {
+            height: fit-content;
+            width: auto;
+
+        }
+
+        .proj-small {
+            height: fit-content;
+            width: 96vw;
+        }
+
+        .proj-view-img {
+            height: auto;
+            max-width: 250px;
         }
     }
